@@ -79,9 +79,106 @@
 			 </p>
 		 </figure>
 		 
-		<!-- additional content -->
+<!-- additional content -->
 		<p><a href="about.html">Please talk to your parents.</a></p>
 		<p><a href="#top">Top of page</a></p>
+
+		<table>
+			 <thead>
+				 <tr>
+					 <th></th>
+					 <th scope="col"><hr />	Type of Gun</th>
+					 <th scope="col"><hr />	Type of Ammo</th>
+			
+				 </tr>
+			 </thead>
+			 <tbody>
+				 <tr>
+					 <th scope="row">Omar</th>
+					 <td><hr />	Desert Eagle</td>
+					 <td><hr />	Magnum .45</td>
+				 </tr>
+				 <tr>
+					 <th scope="row">Bird</th>
+					 <td>Glock</td>
+					 <td>.15 mm</td>
+				 </tr>
+<!-- more rows like the two above here -->
+			 </tbody>
+			 <tfoot>
+				 <tr>
+					 <td></td>
+					 <td colspan="2">It looks like Omar had the higher ground here!</td>
+				 </tr>
+			 </tfoot>
+		 </table>
+<!-- form from here on-->
+		 <br />
+		 <hr />
+		 <br />
+		 <form action="http://bestsiteever.com/review.js" method="get">
+		 	<fieldset>
+		 		<legend>
+		 			Tell me about your life:
+		 		</legend>
+		 		<label>
+		 			Name:
+		 			<input type="text" name="name" size="30" maxlength="100">
+		 		</label>
+		 		<br />
+		 		<label>
+		 			Email:
+		 			<input type="email" name="email" size="30" maxlength="100">
+		 		</label>
+		 		<br />
+		 	</fieldset>
+		 	<br />
+		 	<fieldset>
+		 		<legend>
+		 			Your life:
+		 		</legend>
+		 		<p>
+		 			<label for="hear-about">
+		 				How did you hear about me?
+		 			</label>
+		 			<select name="referrer" id="hear-about">
+		 				<option value="D'Angelo">D'Angelo</option>
+		 				<option value="Fat Joe">Fat Joe and the greeks</option>
+		 				<option value="Marlo">Marlo, Chris and snoop</option>
+		 				<option value="Bubbles">Some other snitch</option>
+		 			</select>
+		 		</p>
+		 		<p>
+		 			Would you visit again?
+		 			<br />
+		 			<label>
+		 				<input type="radio" name="rating" value="yes" />
+		 				Yes
+		 			</label>
+		 			<label>
+		 				<input type="radio" name="rating" value="no" />
+		 				No
+		 			</label>
+		 			<label>
+		 				<input type="radio" name="rating" value="maybe" />
+		 				Maybe
+		 			</label>
+		 		</p>
+		 		<p>
+		 			<label for="comments">
+		 				Comments:
+		 			</label>
+		 			<br />
+		 			<textarea rows="4" cols="40" id="comments">
+		 			</textarea>
+		 		</p>
+		 		<label>
+		 			<input type="checkbox" name="subscribe" checked="checked" />
+		 			Sign me up for email updates
+		 		</label>
+		 		<br />
+		 		<input type="submit" value="Get da dope" />
+		 	</fieldset>
+		</form>
 	</body>
 </html>
-
