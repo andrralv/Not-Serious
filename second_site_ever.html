@@ -1,11 +1,26 @@
+<!DOCTYPE html>
+
 <!-- SECOND SITE EVER! -->
 <!-- WE ARE GOING PLACES -->
 <html>
 	<head>
+		<meta name="description" content="omar and bird have a little thing to discuss" />
 		<title>~~ The most relaxing place on the internet. ~~</title>
+		<title>Flash, Video and Audio</title>
+		<script type="text/javascript"
+			src="http://ajax.googleapis.com/ajax/libs/
+			swfobject/2.2/swfobject.js"></script>
+		<script type="text/javascript">
+			var flashvars = {};
+			var params = {movie: "../video/puppy.flv"};
+			swfobject.embedSWF("flash/osplayer.swf", "snow",
+			"400", "320", "8.0.0", flashvars, params);</script>
 	</head>
 	<body>
+		<div id="header">
 		<h1 id="top">MOM LEAVE ME ALONE AAAAAAA</h1>
+		</div><!-- End header -->
+		<div id="text">
 		<h2>Chapter 2</h2>
 		<p>Right. I should keep this very professional shouldn't I?
 		Let me tell you 'bout <i>the snakes</i>,<br />  the fakes, the lies
@@ -20,7 +35,8 @@
 		I mean you really gotta rap and be all that
 		And prepare yourself for the breaks<br /> 
 		<em>Check it out!</em><p>
-
+		</div><!--end of text-->
+		<div  class="recipe">
 		<h1>Scrambled Eggs</h1>
 		<p>Eggs are some of my favourite foods. Eggs won't ever stab you <br />
 		in the back and have sex with your enemies. Eggs taste delicious and <br />
@@ -37,11 +53,11 @@
 			<li>Stick your head inside.</li> 
 			<li>Sprinkle salt and pepper as you wish, master.</li>
 		</ol>
-
+		</div><!-- end of recipe-->
 		<h1>Film Folk For Hipsters do-da-doo meme word</h1>
 		<h2>Festival Diary</h2>
 		<p>Here are some of the film festivals we
-		 	will be attending this year. <br />Excluding music 
+		 	will be attending <span class="time">this year.</span> <br />Excluding music 
 		 	festivals because that sucks.<br />Please
 			<a href="mailto:audiovisuales.mifes@gmail.com">
 			contact us</a> if you would like more
@@ -180,5 +196,24 @@
 		 		<input type="submit" value="Get da dope" />
 		 	</fieldset>
 		</form>
+		<iframe width="400" height="400" frameborder="0" seamless src="http://maps.google.co.uk/maps?f=q&amp;
+				 source=s_q&amp;hl=en&amp;geocode=&amp;
+				 q=charing+cross+road+london&amp;output=embed"></iframe>
+		<br />
+		<br />
+		<video poster="images/puppy.jpg" width="400"
+			 height="320" controls="controls">
+			 <source src="video/puppy.mp4" type='video/mp4;
+				 codecs="avc1.42E01E, mp4a.40.2"' />
+			 <source src="video/puppy.webm" type='video/webm;
+				 codecs="vp8, vorbis"' />
+			 <div id="snow">
+				 <p>You cannot see this video of a puppy playing
+					 in the snow because this browser does not
+					 support our video formats.</p>
+			 </div>
+		 </video>
 	</body>
 </html>
+
+
