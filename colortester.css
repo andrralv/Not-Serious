@@ -1,0 +1,13 @@
+body {background-color: rgb(212, 212, 212);
+	font-family: Arial, Verdana, sans-serif;
+	width:60%;
+	margin-bottom:100px;}
+
+h1 {color: rgb(255,23,224);
+	background-color: rgb(46,46,46)}
+div.hello {max-width:400px;
+		text-align:center;
+		margin:20px;}
+
+fieldset.hi {border-style:dotted;
+			text-align:center;}
