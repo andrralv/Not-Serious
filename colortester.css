@@ -1,13 +1,23 @@
-body {background-color: rgb(212, 212, 212);
-	font-family: Arial, Verdana, sans-serif;
-	width:60%;
+body {background-color:black;
+	background-image: url(pape16.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:%150;
 	margin-bottom:100px;}
 
-h1 {color: rgb(255,23,224);
-	background-color: rgb(46,46,46)}
+h1	{font-family: Arial, Verdana, sans-serif;
+	width:80%;;
+	padding-left:70px;}
+
+h1 {color:white;
+	background-color:rgba(0,0,0,50)}
+
 div.hello {max-width:400px;
-		text-align:center;
-		margin:20px;}
+	text-align:center;
+	margin:20px;}
+h1:hover, h1.on {color:red;}
 
 fieldset.hi {border-style:dotted;
-			text-align:center;}
+	text-align:center;}
+
