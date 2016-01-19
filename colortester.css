@@ -18,6 +18,14 @@ div.hello {max-width:400px;
 	margin:20px;}
 h1:hover, h1.on {color:red;}
 
+p, h2, ul, li, h3, label, td, th, tc {color:white;}
+
+a {color:hotpink;
+	text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+table.one {color:white;}
+
 fieldset.hi {border-style:dotted;
 	text-align:center;}
 
