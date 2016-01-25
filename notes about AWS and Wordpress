@@ -1,0 +1,189 @@
+**************************************************************************
+Files with this header are meant to be opened in a terminal. 
+Use 'less + filename' to open it and look for reference. Each section
+is separated by a line of asterisks. Andre Rodriguez. 2015.
+**************************************************************************
+
+## WORDPRESS AND AMAZON WEB SERVICES NOTES ##
+
+THE INTERNET WORKS LIKE THIS:
+
+MY PC --> FTP CLIENT --> WEB SERVER --> THE WIRE --> THE SERVER WHERE MY STUFF IS --> ANY PC THAT KNOWS THE URL
+
+WORDPRESS | FILEZILLA | APACHE | DECODES THE URL INTO THE IP ADDRESS AND SHOWS THE WEBSITE
+***
+
+~~ AMAZON WEB SERVICES ~~
+
+IAM USER: andralv
+Account: 6666-4472-7709
+pw: destanim77
+
+AmazonS3 --> Web service for hosting static websites
+Amazon route 53 --> Maps domain names to ip address (dns helper)
+Cloudfront --> Cache geographically near customer so that shit's faster
+
+Amazon EC2 ---> it's a computer in the cloud using VMS.
+AMAZON MACHINE IMAGE -- AMI -> hosts it for me so i dont have to do LAMP configuration
+
+EC2 Instance + WordPress AMI = WP on AWS Cloud in 2 Minutes!
+
+**************************************************************************
+setting my own website
+
+1. Create the amazon bucket for my website. 
+
+vicepresidentemusic.com --> root domain bucket
+logs.vicepresidentemusic.com --> log bucket ---> this contains metadata 
+www.vicepresidentemusic.com --> subdomain bucket ---> redirects to root domain bucket
+
+registering a custom domain name --> changing from http://example.com.s3-website-us-east-1.amazonaws.com/ to vicepresidentemusic.com.
+
+2. configure the custom domain name
+
+Go on the console and create the bucket to the namespace. 
+
+** enable logging to get analytics and stuff
+
+a. set permissions --> click on root domain -> permissions -> set the text template
+b. set logins -> click on root domain -> logins -> enable -> target bucket is logs.etc -> target prefix is root/
+
+3. deploy website -- follow tutorial
+
+etc . . . go here: http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html
+
+**************************************************************************
+
+setting a wordpress website
+
+go here: https://aws.amazon.com/getting-started/launch-a-wordpress-website/
+
+my wordpress website public ip address: 54.201.188.93
+
+making changes to my website
+
+my website password: 6VVRHzHYG8EZ
+
+*------- config de AMI
+
+key pair **** transform from private to public 
+
+ssh-keygen -y
+[enter path when asked]
+
+if it starts being a bitch:
+
+chmod 400 filename.pem
+
+public dns: ec2-54-200-245-169.us-west-2.compute.amazonaws.com
+
+connect to the ssh: ssh -i "keypairname.pem" ubuntu@ec2-54-200-245-169.us-west-2.compute.amazonaws.com
+
+start apache web server: # apt-get install apache2 # /etc/init.d/apache2 start
+
+install php: sudo apt-get install php5-cli
+
+*------ getting into wordpress
+
+'/wp-admin/' --> LOGIN 
+user --> 'user'
+password --> t https://bitnami.com/aws-credentials
+which is --> M0E9KXAAt0RU
+
+my website public IP address: http://54.201.77.159/
+
+**************************************************************************
+
+using wordpress AMI ---
+
+Once the instance is running, enter the public DNS provided by Amazon into your browser. You will then see the WordPress application. You can go to '/wp-admin/' from your browser to access the application administration panel. The default application administrator is 'user'. Please check our documentation at https://bitnami.com/aws-credentials to learn how to get your password. You may change this username and password within the application settings. You can also SSH to the machine using the username 'bitnami' and your Amazon private key.
+
+**************************************************************************
+
+using mySQL AMI ---
+
+**First Use**
+Create an EC2 instance with 1-Click, then follow these instructions to configure the software for first use
+
+1. Create an EC2 instance with 1-Click, or optionally, using EC2 Console.
+2. SSH to the Public_DNS using username root and your key pair the instance was created with. Optionally, browse to http://<Public_DNS> for other OS-level access options listed below. 
+3. The Turnkey Init process should automatically start; Follow the on-screen instructions to configure the software.
+
+**Accessing the software**
+Normal interface = Web browser http://<Public_DNS>
+Operating System = SSH to the running instance
+OS commands via the browser, go to Web shell at: http://<Public_DNS>:12320
+Administer the software, go to Webmin at: http://<Public_DNS>:12321
+For dbase products, access dbsase command central at: http://<Public_DNS>:12322
+Alternatively, users can retrieve a temporary password by viewing the System Log (right click instance, select Instance Settings, select Get System log)
+For more info visit: http://www.turnkeylinux.org/
+
+AMI USER KEY:
+
+user: admin
+key: 
+User Name,Access Key Id,Secret Access Key
+"andralv",AKIAIEM5P6PKVSWAOQFA,Y/Zt9RNmKOXFkRgpMSCqoaAcjy1kMbLl0Q4BotGE
+
+keypairname public:
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCCVtF2GW1Ue4qoMD26eKV7j8d281J8OdL2n3Ag5ZDz45WhpQPY6WxysCxqZu4o2WQjef9p4uidheyssUobnh18ek/jC3c7rWkBVkwEgy6dnMYADpMGTDAAzMuGx5x+gaNPOngpIoKeUtjwVBPRg6+n8p+nZlfMMmZxg8D+gnbYcrLBtyZXgquuth79FTfsRrvuARq+ofFRG6dJrEJTSka+YEniiLEvpMY8jspqaM7FRaWdV7ZuQdsKYfIYUa9sBaWtaWmiRYf7NfKSJtjkugrVKygYYvoudA/4wZgLpkuF1RQgrD+2UnWjuG4jT74A9m3KqzEU0OtFutFBApIB/Bzz
+
+for mySQL: 
+
+ip: 54.201.13.51
+
+ssh -i "keypairname.pem" root@ec2-54-201-13-51.us-west-2.compute.amazonaws.com
+
+user: andralv
+pass1: destanim77
+pass2: admin
+pass3: acces key [paste]
+
+PHPmyadmin: https://172.32.15.56
+web shell: https://172.32.15.56:12320
+webin: https://172.32.15.56:12321
+SSH@FTP: root@172.32.15.56 (port 22)
+mySQL: mysql -u root -h 172.32.15.56 -p
+
+**************************************************************************
+
+BUT ITS A HELL LOT EASIER TO USE THE AMAZON RDS TO SETUP A DATABASE
+
+mysql -h <endpoint> -P 3306 -u <mymasteruser> -p
+mysql -h <endpoint> -P 3306 -u <mymasteruser> -p
+mysql -h myinstance.123456789012.us-east-1.rds.amazonaws.com -P 3306 -u mymasteruser -p
+
+mysql -h mydatabase.cxkbho08zmrj.us-west-2.rds.amazonaws.com -P 3306 -u andralvDB -p
+
+user: andralvDB
+pass: destanim77
+
+**************************************************************************
+
+WORDPRESS !
+
+posts --> they change, like news or blog entries
+pages --> static, like forms or a header
+
+press this button --> like a stumbleupon
+adding content --> there are editors, its too easy
+add media button --> import stuff
+
+adding users --> administrator, editor, user
+if you delete an user you delete all of this lil niggas stuff
+
+theme editor tab --> 'expert' stuff. not recommended. 
+use 'resize thumbnails' plugin if images dont fit my theme
+
+appearance --> customize -> do stuff
+widgets --> javascript stuff
+
+appearance --> widgets
+appearance --> menus -> drag and drop -> can nest menus
+
+theme providers: iThemes, WooThemes, themeforest
+
+
+
+
