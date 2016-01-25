@@ -512,3 +512,39 @@ to structure the page. The DOM tree is made of objects that represent a part of 
 
 The DOM defines methods and properties to access those parts of the web page, which in turn
 updates what the user sees in the browser. Some people call it API (Application programming interface) [the console]
+
+ELEMENT --> names like div, header, p, ul, li (element nodes) --> attribute nodes (whatever you put in here) --> text nodes
+
+WORKING WITH THE DOM TREE ---> 1. Locate the node you want to work with 2. use its content
+
+Selecting an individual node **
+
+getElementById() method --> by html id
+querySelector() --> finds the first css selector
+
+Selecting multiple elements (nodelists) **
+
+getElementByClassName() --> selects an entire class
+getElementsByTagName() --> selects elements with a tag name
+querySelector all --> finds all css instances of that selector
+
+Traversing between element nodes **
+
+parentNode --> selects the element 
+previousSibling / nextSibling --> selects the previous or next node in the dom tree
+firstChild/ lastChild --> selects the first or last child of element
+
+Caching DOM queries
+
+Storing whatever you get from the method to get something from the DOM
+
+var itemOne = getElementById("One"); YOU are caching the DOM Location not the variable! A pointer!!!
+
+JavaScript can "display" data in different ways:
+
+    Writing into an alert box, using window.alert().
+    Writing into the HTML output using document.write().
+    Writing into an HTML element, using innerHTML.
+    Writing into the browser console, using console.log().
+
+ 
