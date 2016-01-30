@@ -16,7 +16,7 @@
 		</style>
 		<div class="wrapper">
 			<div class="header">
-				<h1>Meme Artist Lyrics Generator</h1>
+				<h1>White Problematic Kid Lyrics Generator</h1>
 			</div>
 			<div class="middle">
 				<div class ="characters">
@@ -37,14 +37,24 @@
 				</div>
 			<input type="submit" name="Get Lyrics" value="Get Lyrics" id="button">
 			<br />
+			<input type="submit" name="Reset" value="reset" id="resetter">
+			<br />
 			<br />
 			<div class="footer">
 				<p>All lyrics and words by their respective artists.</p>
 			</div>
 		</div>
-		<script src="javascript/isaacbrockgenerator.js"></script>
 		<script>
 			function myFunc(arg) {
+				if (arg.className === 'isaac') {
+					arg.id = 'isaacpic';
+				} 
+				if (arg.className === 'bradford') {
+					arg.id = 'bradpic';
+				}
+				if (arg.className === 'malkmus') {
+					arg.id = 'malkmuspic';
+				} 
 				frameisaac.style.backgroundPosition = "0 0";
 				framebrad.style.backgroundPosition = "0 0";
 				framemalkmus.style.backgroundPosition = "0 0";
@@ -67,5 +77,7 @@
 					myFunc(framemalkmus);
 				}, false);
 		</script>
+		<script src="javascript/test2.js"></script>
+	
 	</body>
 </html>

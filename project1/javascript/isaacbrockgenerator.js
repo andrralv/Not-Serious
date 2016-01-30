@@ -69,4 +69,5 @@ ready.addEventListener('click', function()
     getLines(beginning, middle, end);
 }, false);
 
-
+var resetter = document.getElementById("resetter");
+resetter.addEventListener('click', location.reload(), false);
