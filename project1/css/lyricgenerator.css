@@ -1,13 +1,13 @@
 /* layout for the Isaac Brock Lyric Generator Website */
 
 body {background-color: #171717 ;
-	text-align:center;
-	font-family: 'Merriweather', serif;}
+	text-align:center;}
 
 h1 {padding-bottom:1%;
-	font-size:30px;}
+	font-size:30px;
+	font-family: 'Bitter', serif;}
 
-p {font-family: 'Merriweather', serif;}
+p {font-family: 'Bitter', serif;}
 
 .wrapper {width:800px;
 		margin: 0 auto;
@@ -53,6 +53,6 @@ p {font-family: 'Merriweather', serif;}
 
 .characters {position:relative;
 			left:205px;
-			font-size: 10px
+			font-size: 12px
 		}
 
