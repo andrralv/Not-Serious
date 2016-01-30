@@ -1,19 +1,23 @@
 /* layout for the Isaac Brock Lyric Generator Website */
 
-body {background-color: #171717 ;
-	text-align:center;}
+
+html, body {background-color: #171717;
+	text-align:center;
+	font-family: 'Bitter', serif;
+    margin:  0px auto;
+    padding: 0px auto;}
 
 h1 {padding-bottom:1%;
-	font-size:30px;
-	font-family: 'Bitter', serif;}
+	font-size:30px;}
 
-p {font-family: 'Bitter', serif;}
 
 .wrapper {width:800px;
 		margin: 0 auto;
+		padding: 0 auto;
+		height: auto;
 		background-color:#D2D2D2;
 		background-position:center;
-		padding-top:3%;}
+		min-height: 100%;}
 
 .container {background-color:#FFFFFF;
 		position:relative;
@@ -47,12 +51,11 @@ p {font-family: 'Bitter', serif;}
 	background-position: 0 0;
 		}
 
-.isaac:hover {background-position: -125px 0;}
-.bradford:hover {background-position: -125px 0;}
-.malkmus:hover {background-position: -125px 0;}
+.isaac:hover {background-position: -125px 0 !important;}
+.bradford:hover {background-position: -125px 0 !important;}
+.malkmus:hover {background-position: -125px 0 !important;}
 
 .characters {position:relative;
 			left:205px;
 			font-size: 12px
 		}
-

@@ -59,7 +59,7 @@ bradBeginning = [
     "This is where love has left me, ",
     "Please leave me alone, ",
     "I'm just a poorboy from a poor family",
-    "What a bad thought, ",
+    "A couple of girls I knew from way back, ",
     "What direction should we choose? ",
     "Drive alone, drive straight home, ",
     "No one ever talked to me, ", 
@@ -108,7 +108,7 @@ malkmusBeginning = [
     "This is the city, ",
     "You kiss like a rock but you know, ",
     "Let's talk about leaving, ",
-    "I was dressed for success, but success it never comes ", 
+    "I was dressed for success, but success it never comes, ", 
     "Relationships hey-hey-hey",
     "There's ways of living and this is the way I'm living, "
 ];
@@ -136,16 +136,17 @@ malkmusEnd = [
     " ta-da-da-de-doo",
     " because you are in such high protein plans.", 
     " maybe we could dance?",
-    " your pain is probably equal.",
+    " dying doesn't meet my expectations.",
     " don't listen to your grandmother's advice.", 
     " you're so beautiful to look at when you cry.",
-    " let's spend our last quarter stands randomly.",
+    " let's spend our last quarter stance randomly.",
     " tension and fame is our career."
 ];
 
 function getLines(arr1, arr2, arr3) { // generate the lyric from random bits
+    var currentMsg = document.getElementById("first_line");
+    currentMsg.innerHTML ="...";
     var elem = document.getElementById("clicked");
-    elem.innerHTML = '...';
     var msg = '';
     var num1 = Math.floor((Math.random() * 11) + 1);
     var num2 = Math.floor((Math.random() * 11) + 1);
@@ -159,10 +160,15 @@ function message(arg) { // put the message in the textbox
     var elemContent = elem.firstChild.nodeValue;
     elemContent = elemContent.replace('...', arg);
     elem.firstChild.nodeValue = elemContent;
-}
-
-function resetPage() {
-    location.reload();
+    if (x.id === 'clicked') {
+        x.id = 'isaacpic';
+    }
+     if (y.id === 'clicked') {
+        y.id = 'bradpic';
+    }
+     if (z.id === 'clicked') {
+        z.id = 'malkmuspic';
+    }
 }
 
 var ready = document.getElementById("button"); //get button id
@@ -178,7 +184,4 @@ ready.addEventListener('click', function() //check which button was clicked and 
         getLines(malkmusBeginning, malkmusMiddle, malkmusEnd);
     }
 }, false);
-
-var resetter = document.getElementById("resetter");
-resetter.addEventListener('click', resetPage, false);
 
