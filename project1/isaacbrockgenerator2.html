@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<title> Isaac Brock Lyric Generator | v1 </title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML5, CSS3, Javascript">
+		<meta name="description" content="Isaac Brock Lyric Generator Service">
+		<link href="css/isaacbrockgenerator.css" type="text/css" rel="stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<style> 
+			h1 {font-family: 'Merriweather', serif;} 
+		</style>
+		<div class="wrapper">
+			<div class="header">
+				<h1>Meme Artist Lyrics Generator</h1>
+			</div>
+			<div class="middle">
+				<div class ="characters">
+					<table>
+						<tr>
+							<td><p>Isaac Brock</p>
+							<td><p>Bradford Cox</p>
+							<td><p>Stephen Malkmus</p>
+						<tr>
+							<td><div class="isaac" id="isaacpic"></td>
+							<td><div class="bradford" id="bradpic"></td>
+							<td><div class="malkmus" id="malkmuspic"></td>
+						</tr>
+					</table>
+				</div>
+				<div class="container">
+					<p id="first_line">...</p>
+				</div>
+			<input type="submit" name="Get Lyrics" value="Get Lyrics" id="button">
+			<br />
+			<br />
+			<div class="footer">
+				<p>All lyrics and words by their respective artists.</p>
+			</div>
+		</div>
+		<script src="javascript/isaacbrockgenerator.js"></script>
+		<script>
+			function myFunc(arg) {
+				frameisaac.style.backgroundPosition = "0 0";
+				framebrad.style.backgroundPosition = "0 0";
+				framemalkmus.style.backgroundPosition = "0 0";
+				arg.style.backgroundPosition = "125px 0";
+				arg.id = 'clicked';
+			}
+			var frameisaac = document.getElementById('isaacpic');
+			frameisaac.addEventListener('click', function()
+				{
+					myFunc(frameisaac);	
+				}, false);
+			var framebrad = document.getElementById('bradpic');
+			framebrad.addEventListener('click', function()
+				{
+					myFunc(framebrad);
+				}, false);
+			var framemalkmus = document.getElementById('malkmuspic');
+			framemalkmus.addEventListener('click', function()
+				{
+					myFunc(framemalkmus);
+				}, false);
+		</script>
+	</body>
+</html>
