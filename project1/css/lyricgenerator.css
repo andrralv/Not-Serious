@@ -1,7 +1,7 @@
 /* layout for the Isaac Brock Lyric Generator Website */
 
 
-html, body {background-color: #171717;
+html, body {background-color: #2C2C2C;
 	text-align:center;
 	font-family: 'Bitter', serif;
     margin:  0px auto;
@@ -25,8 +25,8 @@ h1 {padding-bottom:1%;
 		height:100px;
 		margin:0;
 		padding:0;
-		margin-right:26%;
-		margin-left:26%;
+		margin-right:18%;
+		margin-left:18%;
 		border-radius: 0px 0px 25px 25px;}
 
 .footer {padding-top:2.5%;
@@ -45,7 +45,19 @@ h1 {padding-bottom:1%;
 	background-position: 0 0;
 		}
 
+input[type="submit"] {
+	background:url('../images/buttonsprite.png');
+	height:24px;
+	width:110px;
+	background-position: 0 0;
+}
+
 .malkmus {background-image: url('../images/spritestephen.jpg');
+	height: 150px;
+	width: 125px;
+	background-position: 0 0;
+		}
+.mangum{background-image: url('../images/spritemangum.jpg');
 	height: 150px;
 	width: 125px;
 	background-position: 0 0;
@@ -54,8 +66,10 @@ h1 {padding-bottom:1%;
 .isaac:hover {background-position: -125px 0 !important;}
 .bradford:hover {background-position: -125px 0 !important;}
 .malkmus:hover {background-position: -125px 0 !important;}
+.mangum:hover {background-position: -125px 0 !important;}
+input[type="submit"]:hover {background-position: 0 -24px !important;}
 
 .characters {position:relative;
-			left:205px;
+			left:140px;
 			font-size: 12px
 		}

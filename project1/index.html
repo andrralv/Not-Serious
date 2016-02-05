@@ -10,6 +10,7 @@
 		<meta name="author" content="andralv77@gmail.com">
 		<link href="css/lyricgenerator.css" type="text/css" rel="stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
 	</head>
 	<body>
 		<div class="wrapper">
@@ -21,22 +22,24 @@
 							<td><p>Isaac Brock</p>
 							<td><p>Bradford Cox</p>
 							<td><p>Stephen Malkmus</p>
+							<td><p>Jeff Mangum</p>
 						<tr>
-							<td><div class="isaac" id="isaacpic"></td>
-							<td><div class="bradford" id="bradpic"></td>
-							<td><div class="malkmus" id="malkmuspic"></td>
+							<td><div class="isaac" id="isaacpic"></td></div>
+							<td><div class="bradford" id="bradpic"></td></div>
+							<td><div class="malkmus" id="malkmuspic"></td></div>
+							<td><div class="mangum" id="mangumpic"></td></div>
 						</tr>
 					</table>
 				</div>
 				<div class="container">
 					<p id="first_line">...</p>
 				</div>
-			<input type="submit" name="Get Lyrics" value="Get Lyrics" id="button">
+			<input type="submit" name="" value="" id="button"> 
 			<br />
 			<br />
 			<div class="footer">
 				<p>All lyrics, words and rights by their respective artists.</p>
-		</div>
+			</div>
 		<script>
 			function myFunc(arg) {
 				if (arg.className === 'isaac') {
@@ -48,9 +51,13 @@
 				if (arg.className === 'malkmus') {
 					arg.id = 'malkmuspic';
 				} 
+				if (arg.className === 'mangum') {
+					arg.id = 'mangumpic';
+				}
 				frameisaac.style.backgroundPosition = "0 0";
 				framebrad.style.backgroundPosition = "0 0";
 				framemalkmus.style.backgroundPosition = "0 0";
+				framemangum.style.backgroundPosition = "0 0";
 				arg.style.backgroundPosition = "125px 0";
 				arg.id = 'clicked';
 			}
@@ -69,8 +76,13 @@
 				{
 					myFunc(framemalkmus);
 				}, false);
+			var framemangum = document.getElementById('mangumpic');
+			framemangum.addEventListener('click', function()
+				{
+					myFunc(framemangum);
+				}, false);
 		</script>
-		<script src="javascript/lyricgenerator2.js"></script>
-	
+		<script src="javascript/lyricgenerator.js"></script>
+		</div>
 	</body>
 </html>

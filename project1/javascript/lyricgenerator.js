@@ -1,9 +1,10 @@
-// lyric generator for isaac brock
+// lyrics generator 
 
 // get first element by class
 x = document.getElementsByClassName('isaac')[0];
 y = document.getElementsByClassName('bradford')[0];
 z = document.getElementsByClassName('malkmus')[0];
+v = document.getElementsByClassName('mangum')[0];
 
 // properties for Isaac
 isaacBeginning = [
@@ -18,7 +19,8 @@ isaacBeginning = [
     "I'm on my way, ",
     "Are you dead or are you sleeping?, ", 
     "Are you dead?",
-    "Well I hope that you like it here, "
+    "Well I hope that you like it here, ",
+    "There's so much beauty it can make you cry"
 ];
 
 isaacMiddle = [
@@ -33,7 +35,8 @@ isaacMiddle = [
     "I don't feel and that feels great,",
     "I do lines", 
     "but you gotta live in the city,",
-    "no one's taking showers anymore,"
+    "no one's taking showers anymore,",
+    "need more sleep than coke and meth, "
 ];
 
 isaacEnd = [
@@ -48,7 +51,8 @@ isaacEnd = [
     " broken hearts want broken necks.", 
     " opinions are like kittens I just give 'em away.",
     " this car's not working.",
-    " this boat's sinking and I ain't got shit to do with that."
+    " this boat's sinking and I ain't got shit to do with that.", 
+    " I'm out of gas."
 ];
 
 // properties for Brad
@@ -64,7 +68,8 @@ bradBeginning = [
     "Drive alone, drive straight home, ",
     "No one ever talked to me, ", 
     "I'm saved, oh I'm saved!",
-    "Come on little boy, "
+    "Come on little boy, ",
+    "Why does it have to be so brutal?, "
 ];
 
 bradMiddle = [
@@ -80,6 +85,7 @@ bradMiddle = [
     "for a year I was queer,", 
     "in the bluffs they know my name,",
     "I grew tired of Little Five Points,",
+    "pray for the sea,"
 ];
 
 bradEnd = [
@@ -94,38 +100,41 @@ bradEnd = [
     " I lived in Hazel street.", 
     " when one life is over a new one begins.",
     " I saw your face melt like the ocean.",
-    " I walked around like a walker."
+    " I walked around like a walker.",
+    " so many useless bodies."
 ];
 
 // properties for Malkmus
 malkmusBeginning = [
-    "Blind date with a chancer, ",
-    "I'd like to check out your public protests, ",
-    "Come one darling, ",
-    "We need secrets se-crets se-se-se-secrets, ",
-    "Oh you ignorant soul, believe in what you want to do, ",
-    "Don't take your pawnshop home, ",
-    "This is the city, ",
-    "You kiss like a rock but you know, ",
-    "Let's talk about leaving, ",
-    "I was dressed for success, but success it never comes, ", 
+    "Blind date with a chancer,",
+    "I'd like to check out your public protests,",
+    "Come on darling,",
+    "We need secrets se-crets se-se-se-secrets,",
+    "Oh you ignorant soul, believe in what you want to do,",
+    "Don't take your pawnshop home,",
+    "This is the city,",
+    "You kiss like a rock but you know,",
+    "Let's talk about leaving,",
+    "I was dressed for success, but success it never comes,", 
     "Relationships hey-hey-hey",
-    "There's ways of living and this is the way I'm living, "
+    "There's ways of living and this is the way I'm living,",
+    "No more absolutes,"
 ];
 
 malkmusMiddle = [
-    "I know, oh trust me baby I know, ",
-    "underneath the fake oil burning lamps,", 
-    "everywhere eyes, nowhere to die,", 
-    "your lowlife opinions", 
-    "talk about your family,",
-    "I wouldn't wanna shake your hand,",
-    "a little indian christian lie, ", 
-    "out on tour with the smashing pumpkins, ", 
-    "your jokes are always bad",
-    "and there's 40 different shades of black,", 
-    "it's a brand new era, but it came too late,",
-    "if I could settle down,",
+    " I know, oh trust me baby I know, ",
+    " underneath the fake oil burning lamps,", 
+    " everywhere eyes, nowhere to die,", 
+    " your lowlife opinions", 
+    " talk about your family,",
+    " I wouldn't wanna shake your hand,",
+    " a little indian christian lie, ", 
+    " out on tour with the smashing pumpkins, ", 
+    " your jokes are always bad",
+    " and there's 40 different shades of black,", 
+    " it's a brand new era, but it came too late,",
+    " if I could settle down,",
+    " god struck by the first valley"
 ];
 
 malkmusEnd = [
@@ -140,9 +149,11 @@ malkmusEnd = [
     " don't listen to your grandmother's advice.", 
     " you're so beautiful to look at when you cry.",
     " let's spend our last quarter stance randomly.",
-    " tension and fame is our career."
+    " tension and fame is our career.", 
+    " kiss me into the past."
 ];
 
+// properties for mangum
 mangumBeginning = [
     "The only girl I ever loved, ",
     "When you were young, ",
@@ -151,37 +162,56 @@ mangumBeginning = [
     "Daddy please hear the song that I sing, ",
     "Oh holy rattlesnakes, ",
     "This is the room one afternoon I knew I could love you, ", 
-    "I love you Jesus Christ, "
+    "I love you Jesus Christ, ",
     "One day we will die and our ashes will fly", 
     "I am listening to hear where you are, ", 
     "Two-headed boy, put on sunday shoes, ", 
-    "Sweetness sings from every corner, "]
+    "Sweetness sings from every corner, ",
+    "You're riding alone in the back of a steamer"
+    ];
 
 mangumMiddle = [
-    "she goes and she knows she'll never be afraid, "
-    "and she was born in a bottlerocket in 1929, "
-    "I know she will never die, "
-    "and I will love you for the rest of your life"
-    "and when we break, "
-    "in my dreams you are alive and you are crying, ", 
-    "how you loved to find your tongue in his teeth", 
-    "now she is a little boy in spain playing pianos filled with flames, ", 
-    "but now we must pick up every piece, ",
-    "there are lights in the clouds, ", 
-    "dee-dee-deee-dee-deeeee"], 
-    "your mom will stick a fork right into daddy's shoulder"]
+    " she goes and she knows she'll never be afraid,",
+    " and she was born in a bottlerocket in 1929,",
+    " I know she will never die,",
+    " and I will love you for the rest of your life",
+    " and when we break,",
+    " in my dreams you are alive and you are crying,", 
+    " how you loved to find your tongue in his teeth,", 
+    " now she is a little boy in spain playing pianos filled with flames,", 
+    " but now we must pick up every piece,",
+    " there are lights in the clouds,", 
+    " dee-dee-deee-dee-deeeee ", 
+    " your mom will stick a fork right into daddy's shoulder,",
+    " the milky delight inviting us all, "
+    ];
+
+mangumEnd = [
+    " slam me into the ditch of debris.",
+    " into you I will glow.",
+    " so pretty, so empty.",
+    " please, don't leave me here.", 
+    " don't hate her when she gets up to leave.",
+    " how strange it is to be anything at all.",
+    " when we meet on a cloud I'll be laughing out loud.",
+    " semen stains the mountain tops.",
+    " I will take you and leave you alone.",
+    " I will bury you in time.", 
+    " dee-dee-dee-de-deee.",
+    " god is a place you will wait for the rest of your life.",
+    " your head is filled with flames."
+    ];
 
 function getLines(arr1, arr2, arr3) { // generate the lyric from random bits
     var currentMsg = document.getElementById("first_line");
     currentMsg.innerHTML ="...";
-    var elem = document.getElementById("clicked");
     var msg = '';
-    var num1 = Math.floor((Math.random() * 11) + 1);
-    var num2 = Math.floor((Math.random() * 11) + 1);
-    var num3 = Math.floor((Math.random() * 11) + 1);
+    var num1 = Math.floor((Math.random() * 12) + 1);
+    var num2 = Math.floor((Math.random() * 12) + 1);
+    var num3 = Math.floor((Math.random() * 12) + 1);
     msg += arr1[num1] + '\n' + arr2[num2] + '\n' + arr3[num3];
     message(msg);
-}
+};
 
 function message(arg) { // put the message in the textbox
     var elem = document.getElementById("first_line");
@@ -191,13 +221,16 @@ function message(arg) { // put the message in the textbox
     if (x.id === 'clicked') {
         x.id = 'isaacpic';
     }
-     if (y.id === 'clicked') {
+    if (y.id === 'clicked') {
         y.id = 'bradpic';
     }
-     if (z.id === 'clicked') {
+    if (z.id === 'clicked') {
         z.id = 'malkmuspic';
     }
-}
+    if (v.id === 'clicked') {
+        v.id = 'mangumpic';
+    }
+};
 
 var ready = document.getElementById("button"); //get button id
 ready.addEventListener('click', function() //check which button was clicked and call getlines
@@ -205,13 +238,14 @@ ready.addEventListener('click', function() //check which button was clicked and 
     if (x.id === 'clicked') {
         getLines(isaacBeginning, isaacMiddle, isaacEnd);
     }
-     if (y.id === 'clicked') {
+    if (y.id === 'clicked') {
         getLines(bradBeginning, bradMiddle, bradEnd);
     }
-     if (z.id === 'clicked') {
+    if (z.id === 'clicked') {
         getLines(malkmusBeginning, malkmusMiddle, malkmusEnd);
     }
+    if (v.id ==='clicked') {
+        getLines(mangumBeginning, mangumMiddle, mangumEnd);
+    }
 }, false);
-
-
 
