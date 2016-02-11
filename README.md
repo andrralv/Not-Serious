@@ -1,7 +1,7 @@
 <h1> Web </h1>
 <h5> Web related projects and exercises are added here.</h5>
 
-<h4> White Problematic Kid Lyrics Generator </h4>
+<h4> Project_01: White Problematic Kid Lyrics Generator </h4>
 <b> Joke-website developed with the intention of using Javascript vanilla code for 
 	manipulating the DOM. </b>
 
