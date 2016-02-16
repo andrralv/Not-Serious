@@ -1,0 +1,71 @@
+html, body {font-family: 'Architects Daughter', cursive !important;
+			background-color: #F5CF20;
+			margin: 0 0  auto;
+			padding: 0 0 auto;
+			overflow-x: hidden;}
+
+p {font-size: 10px !important;}
+
+.row {background-color: #F5CF20;
+	overflow:hidden;}
+
+#top {background-image: url("../images/pattern.png")}
+
+.container {max-width: 960px;
+			text-align: justify;}
+
+.thumbnail {overflow:hidden;
+			height:350px;
+			text-align: justify;}
+
+.container #plato {float: top-left;
+				clear: top-left;
+				margin: 10px 10px 10px 10px;
+				height:95%;
+				width:95%;}
+
+#middle {color:white;
+		background-color: #BA1313;}
+
+#table {background-color: #BA1313;
+				color: white;
+				font-size: 7px;}
+
+#bottom {background-image: url("../images/pattern.png");}
+
+#footer {background-color: #BA1313;
+			text-align: center;
+			color:white;
+			margin: -1% !important;
+			padding: 1% !important;}
+
+.bars {margin-left: 10%;
+	margin-right: 10%;}
+
+#botonContacto {display: none;}
+
+.container #contacto {padding-left: 30%;
+					font-size: 12px;}
+
+#subButton {color:white;
+			background-color: #BA1313;
+			text-align: center;}
+
+.container #link {text-align: center;
+		text-decoration: none;
+		color: #BA1313;
+		margin-left:30% !important;}
+
+.btn {background-color: #BA1313 !important;
+	border-color: #BA1313 !important;
+	margin-left:30% !important;}
+
+.especial {color: #BA1313;}
+
+h5 {font-size: 12px !important;}
+
+.captionImage {height: 50%;
+				width: 50%;}
+
+
+
