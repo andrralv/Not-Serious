@@ -8,5 +8,7 @@
 <b> It lets the user choose a character from a selection of indie artists and the
 	website returns lines of their own lyrics randomly merged together in a full phrase. </b>
 
-<h4> Territorio de Zaguates Search Index </h4> 
-<b> Work In Progress...</b>
+<h4> Project_02: Don Chayo </h4> 
+<b> Freelance Job - Basic company information website done fully in Bootstrap 3 and a few JQuery effects.</b>
+
+<b> Will connect to a backend mysql server using ajax requests.</b>
