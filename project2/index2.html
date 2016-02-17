@@ -10,8 +10,9 @@
 		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="images/icon-16x16.png" sizes="16x16">
 		<link rel="stylesheet" type="text/css" href="css/donchayo2.css">
-		<link rel="stylesheet" type="text/css" media="only screen and (max-width:768px)" href="css/donchayo2-small.css">
-		<link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:480px) and (max-width:768px)" href="css/donchayo2-small.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:480px)" href="css/donchayo2-extrasmall.css">
+		<link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.min.css">
 
 		<link rel="icon" type="image/png" href="images/icon.png" sizes="16x16"/>
 	</head>
@@ -20,6 +21,7 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="container" id="top">
+						<img id="smallLogo" src="images/logo.png">
 						<div id="theCarousel" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#theCarousel" data-slide-to="0" class="active"></li>
@@ -57,7 +59,7 @@
 					<div class="products">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 							<div class="thumbnail">
-								<img src="images/perejil.jpg" alt="Ajo Con Perejil">
+								<img class="imagen" src="images/perejil.jpg" alt="Ajo Con Perejil">
 								<div class="caption">
 									<h4>Ajo Con Perejil</h4>
 									<p><span class="especial">Especial Para: Carnes Rojas, Asados.</span>
@@ -69,7 +71,7 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 							<div class="thumbnail">
-								<img src="images/paprikajar.jpg" alt="Ajo Con Paprika">
+								<img class="imagen" src="images/paprikajar.jpg" alt="Ajo Con Paprika">
 								<div class="caption">
 									<h4>Ajo Con Paprika</h4>
 									<p><span class="especial">Especial Para: Arroz, Carnes Blancas.</span>
@@ -81,7 +83,7 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 							<div class="thumbnail">
-								<img src="images/pestojar.jpg" alt="Pesto Preparado">
+								<img class="imagen" src="images/pestojar.jpg" alt="Pesto Preparado">
 								<div class="caption">
 									<h4> Pesto </h4>
 									<p><span class="especial">Especial Para: Pastas, Choripan.</span>
@@ -93,7 +95,7 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 							<div class="thumbnail">
-								<img src="images/picadillosample.jpg" alt="Picadillos Preparados">
+								<img class="imagen" src="images/picadillosample.jpg" alt="Picadillos Preparados">
 								<div class="caption">
 									<h4>Picadillos</h4>
 									<p><span class="especial">Variedades: De Papa, Vainica y Papaya.</span>
@@ -108,12 +110,11 @@
 				<div class="container" id="middle">
 						<br />
 						<h4> Acerca de Nosotros: </h4>
-						<img src="images/plato.jpg" alt="Picadillo de Chicasquil" id="plato">
-						<p>Don Chayo es una pequeña empresa dedicada a la producción de especies y productos alimenticios Costarricenses.
+						<img src="images/plato.jpg" alt="Picadillo de Chicasquil" id="plato" class="imagen">
+						<p class="texto">Don Chayo es una pequeña empresa dedicada a la producción de especies y productos alimenticios Costarricenses.
 							Nuestra visión es lograr que el consumidor meta (el cual es usted) pueda acceder a productos de calidad artesanal
 							fáciles de preparar, con sabores únicos elaborados con nuestras recetas exclusivas.</p>
-						<p>Puede encontrar nuestros productos en diversas carnicerías y verdulerías dentro de la provincia de San José. Si usted desea
-							convertirse en proveedor de nuestros productos para su negocio, por favor contáctenos para acesorarle en todo lo que podamos.</p>
+						<p class="texto">Puede encontrar nuestros productos en diversas carnicerías y verdulerías dentro de la provincia de San José. Si usted desea convertirse en proveedor de nuestros productos para su negocio, por favor contáctenos para acesorarle en todo lo que podamos.</p>
 					</div>
 				<div class="container" id="table">
 					<h3> Nuestros Productos: </h3>

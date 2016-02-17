@@ -9,20 +9,27 @@ p {font-size: 10px !important;}
 .row {background-color: #F5CF20;
 	overflow:hidden;}
 
+#smallLogo {display: none;}
+
 #top {background-image: url("../images/pattern.png")}
 
 .container {max-width: 960px;
 			text-align: justify;}
 
 .thumbnail {overflow:hidden;
-			height:350px;
+			height:370px;
 			text-align: justify;}
+
+.thumbnail .imagen {height:50%;
+			width:60%;}
 
 .container #plato {float: top-left;
 				clear: top-left;
 				margin: 10px 10px 10px 10px;
-				height:95%;
-				width:95%;}
+				height:80%;
+				width:80%;}
+
+.texto {text-align: justify;}
 
 #middle {color:white;
 		background-color: #BA1313;}
@@ -44,7 +51,7 @@ p {font-size: 10px !important;}
 
 #botonContacto {display: none;}
 
-.container #contacto {padding-left: 30%;
+.container #contacto {padding-left: 35%;
 					font-size: 12px;}
 
 #subButton {color:white;
@@ -54,11 +61,11 @@ p {font-size: 10px !important;}
 .container #link {text-align: center;
 		text-decoration: none;
 		color: #BA1313;
-		margin-left:30% !important;}
+		margin-left:40% !important;}
 
 .btn {background-color: #BA1313 !important;
 	border-color: #BA1313 !important;
-	margin-left:30% !important;}
+	margin-left:40% !important;}
 
 .especial {color: #BA1313;}
 
