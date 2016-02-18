@@ -1,0 +1,80 @@
+html, .top {font-family: 'Architects Daughter', cursive;
+			background-color: #F5CF20;}
+
+#theCarousel {max-width: 960px;
+			margin-left: 195px;}
+
+.products {padding: 5px;
+		overflow: hidden;}
+
+.jumbotron {margin-left: 195px;
+			margin-right: 194px;
+			height: 600px;
+			background-image: url("../images/pattern.png");}
+
+.jumbotron p {font-size: 14px !important;}
+
+.block {position:relative;
+		bottom: 60px;
+		background-color: #BA1313;
+		padding-left: 375px;
+		color: white;
+		height: 20px;}
+
+.btn {background-color: #BA1313 !important;
+	border-color: #BA1313 !important;}
+
+.caption {text-align: justify;}
+
+.especial {color: #BA1313;}
+
+.containerMiddle {margin-top: 1px;
+				background-color: #BA1313 !important;
+				color:white;
+				text-align: justify;
+				border: 10px;
+				border-style: solid;
+				border-color: #BA1313;}
+
+.containerMiddle #plato {float: right;
+						clear: right;
+						margin: 0px 10px 50px 10px;}
+
+.containerTable {margin-right: 194px;
+				margin-left: 195px;
+				background-color: #BA1313;
+				color: white;}
+
+.containerTable h3 {position:relative;
+				top: 230px;
+				left: 10px;}
+
+.containerBottom {background-image: url("../images/pattern.png");
+				margin-left: 194px;
+				margin-right: 194px;
+				position:relative;
+				bottom: 20px;}
+
+.bars {margin-left: 200px;
+	margin-right: 200px;}
+
+#contacto {margin-left: 350px;}
+
+.footer {background-color: #BA1313 !important;
+		padding-bottom: 30px;
+		margin-bottom: 0;
+		text-align: center;
+		color:white;}
+
+.footer h5 {padding-bottom:40px;
+			padding:20px;
+			margin-bottom: 0px;}
+
+#link:hover {color:black;}			
+
+#link {margin-left: 225px;
+		text-decoration: none;
+		color: #BA1313;}
+
+#subButton {color:white;
+			margin-left: 220px;}

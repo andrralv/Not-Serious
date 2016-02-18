@@ -7,8 +7,12 @@ html, body {background-image: url("../images/bgpattern.png");
 	height: auto !important;
 	min-height: 100px;}
 
-h1 {padding-bottom:1%;
-	font-size:30px;}
+h1 {font-size:30px;
+	position:relative;
+	bottom:10px;}
+
+h3 {margin: 0 0;
+	padding: 0 0;}
 
 .wrapper {width:800px;
 		margin: 0 auto;
@@ -63,16 +67,53 @@ input[type="submit"] {
 		width: 125px;
 		background-position: 0 0;
 		}
-.mangum{background-image: url('../images/spritemangum.jpg');
+.mangum {background-image: url('../images/spritemangum.jpg');
 		height: 150px;
 		width: 125px;
 		background-position: 0 0;
 		}
 
+.cuomo {background-image: url('../images/spritecuomo.jpg');
+		height: 150px;
+		width: 125px;
+		background-position: 0 0;
+		}
+
+.elverum {background-image: url('../images/spriteelverum.jpg');
+		 height: 150px;
+		 width: 125px;
+		 background-position: 0 0;
+		 }
+
+.bejar {background-image: url('../images/spritebejar.jpg');
+		 height: 150px;
+		 width: 125px;
+		 background-position: 0 0;
+		 }
+
+.pink {background-image: url('../images/spriteariel.jpg');
+		 height: 150px;
+		 width: 125px;
+		 background-position: 0 0;
+		 }
+
+.nameborder {margin: 0 0;
+			padding: 0 0;
+			height: 5px;
+			background-color: black;
+			color: white;}
+
+
 .isaac:hover {background-position: -125px 0 !important;}
 .bradford:hover {background-position: -125px 0 !important;}
 .malkmus:hover {background-position: -125px 0 !important;}
 .mangum:hover {background-position: -125px 0 !important;}
+.cuomo:hover {background-position: -125px 0 !important;}
+.elverum:hover {background-position: -125px 0 !important;}
+.bejar:hover {background-position: -125px 0 !important;}
+.pink:hover {background-position: -125px 0 !important;}
+
+
 input[type="submit"]:hover {background-position: 0 -24px !important;}
 
 .characters {position:relative;

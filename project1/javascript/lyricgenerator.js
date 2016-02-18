@@ -5,6 +5,10 @@ x = document.getElementsByClassName('isaac')[0];
 y = document.getElementsByClassName('bradford')[0];
 z = document.getElementsByClassName('malkmus')[0];
 v = document.getElementsByClassName('mangum')[0];
+w = document.getElementsByClassName('cuomo')[0];
+u = document.getElementsByClassName('elverum')[0];
+r = document.getElementsByClassName('bejar')[0];
+s = document.getElementsByClassName('pink')[0];
 
 // properties for Isaac
 isaacBeginning = [
@@ -202,6 +206,202 @@ mangumEnd = [
     " your head is filled with flames."
     ];
 
+// properties for Cuomo
+cuomoBeginning = [
+    "My girl don't love me, ",
+    "I want a girl who will laugh for no one else, ",
+    "I don't want to be alone ",
+    "Why are you so far away from me? ",
+    "Excuse the bitching, ",
+    "Feeling is pain, ",
+    "Do it to me everytime ",
+    "I'm dumb she's a lesbian, ",
+    "Married in my mind is no good, ",
+    "We should do love to each other, ", 
+    "This is such a pity, ",
+    "Gimme some of that stuff, ",
+    "One more time, I have crossed the line, "
+];
+
+cuomoMiddle = [
+    "let it go, ",
+    "I'm the best that you've ever had, ", 
+    "why am I so obviously insane? ", 
+    "I'm sorry for what I did, ", 
+    "my fashion sense is a little whacked, ",
+    "I guess you're as real as me, ",
+    "everytime I pin down what I think I want it goes away, ", 
+    "baby baby", 
+    "tell me there's someone for me",
+    "hip hip, ", 
+    "come on and kick me,",
+    "I can't control my brain,",
+    "I'm not having any fun, "
+];
+
+cuomoEnd = [
+    " I'm sorry for that I did.",
+    " baby baby.", 
+    " sometimes trying your best is not enough.", 
+    " so I apologize to you.",
+    " I know that I can be the meanest person in the world.",
+    " all of the drugs she does scare me real good.", 
+    " now I can never go home.",
+    " baby don't you baby on me.",
+    " I don't care what they say about us anyway.", 
+    " you've got my song.",
+    " you half-Japanese girls do it to me every time.",
+    " please leave my sweater alone.", 
+    " like father, stepfather, the son is drowning in the flood."
+];
+
+// properties for Elverum
+elverumBeginning = [
+    "I took my shirt off in the yard, ",
+    "My clothes off me, ",
+    "There's no hope for me, ",
+    "Mountains and websites, ",
+    "Ohhhhh ohhh uohhhhhhh, ",
+    "Oh the emptyness, ",
+    "It's raining on me but I don't want it to stop, ",
+    "There's something glowing in my skin, ",
+    "I forgot my songs, ",
+    "I am bored, ", 
+    "I'll make a coffee while looking out the window, ",
+    "My heart beats loudly, ",
+    "I thought I felt your shape but I was wrong, "
+];
+
+elverumMiddle = [
+    "I went back to feeling alone again, ",
+    "I have no head to hold in grief, ", 
+    "yup, that's a pumpkin I saw, ", 
+    "all the thoughts rushing in, ", 
+    "we're just floating in space over molten rock",
+    "you tore a hole so deep my leak poured out torrentially, ",
+    "I cannot get through september without a battle, ", 
+    "don't want it to stop, ", 
+    "ohhh hhhohhhhhhh",
+    "if you swing again I'll duck, ", 
+    "*mumble* *mumble* *mumble* *mumble*",
+    "I'll be in your bed when you awake, ",
+    "compared to you I am small, "
+];
+
+elverumEnd = [
+    " basically I just want to die naked in a snowy place while people remember me.",
+    " there's nothing left except certain death.", 
+    " I know no one and no one knows me.", 
+    " you deserve yourself.",
+    " AHHHHHHHHHHHHHHHHHHHAAA AHHHH umm oh.",
+    " I'm not a planet at all.", 
+    " I can't believe you actually died.",
+    " in contact with the couch with you, a boring face.",
+    " and now we both know what we have to do.", 
+    " I'm alone except for the sound of insects flying.",
+    " *mumble* *mumble*.",
+    " oh what a loss.", 
+    " can you tell that I'm down here?"
+];
+
+// properties for Bejar
+bejarBeginning = [
+    "Shadowy figures babbling on about typical rural shit, ",
+    "Typical me, typical me, ",
+    "You are alright, ",
+    "I made my way through the Union Street design kids, ",
+    "You disrupt the world's disorder just by virtue of your grace, ",
+    "Distinguished colleagues, dead music-writers' brides - I apologize, ",
+    "I don't know, I guess I'm doing alright, ",
+    "When I'm at war I insist on slaughter and getting it on with the hangman's daughter, ",
+    "Brown paper bag, don't stop me now, ",
+    "Hey, there's Christine, ", 
+    "Yes, I’m familiar with your scene, ",
+    "Now that you got it all... wrong.., ",
+    "Listen.. I've been drinking, "
+];
+
+bejarMiddle = [
+    "desperate times call for desperate measures, ",
+    "I can't walk away... ", 
+    "I didn't stand a chance I couldn't stand at all, ", 
+    "true love regrets to inform you, ", 
+    "I was ok and everything as it was, ",
+    "it's all very nice, ",
+    "it's hell in here, ", 
+    "I'm coming home, ", 
+    "love is on the run, ",
+    "playing the idiot all of your life, this is what you get, ", 
+    "the forces of nature in love with the weather station, ",
+    "you've been wandering around, ",
+    "common scars brought us together, "
+];
+
+bejarEnd = [
+    " I don't know what I'm doing alone in the dark.",
+    " Nah, it’s cool you go, I’ll stay perfectly at home with this dread.", 
+    " ta-da-ta-da-daaa.", 
+    " sounds, smash hits, melody maker, NME, all sound like a dream to me.",
+    " death to the murderers we've loved all our lives.",
+    " a bit of tears and a bit of pills.", 
+    " baby it's dawn, look what I've become: scum.",
+    " let’s face it, old souls like us are being born to die.",
+    " words words words...", 
+    " I was starving in that shithouse of the world.",
+    " you've got to stop calling me honey.",
+    " new York City just wants to see you naked (And they will).", 
+    " all good things must come to an end, the bad ones just go on forever."
+];
+
+// properties for Pink
+pinkBeginning = [
+    "Talk to me, it's now or never, babe, ",
+    "Possum discovered!  ",
+    "Tail is frozen, headlights in go over. Einstein was right, ",
+    "Yeah, juicy Belladonna, ",
+    "I want a girl as beautiful as the sunset, ",
+    "Change me, make me gay, ",
+    "I'm sorry but it's true, ",
+    "Only in my dreams she'll be right there next to me, ",
+    "Do you want to be my beefbud? ",
+    "They never said I was a good kid, ", 
+    "I'm a gothic bomb, ",
+    "You're just playing hard to get, ",
+    "She's older than me, "
+];
+
+pinkMiddle = [
+    "I'm gonna work on it, work on it, ",
+    "I just wanna see your smile, ", 
+    "let's make a toast to glory days when you were 8 and I was only 41, ", 
+    "you're in my heart, you're in my dreams, you're in my soul, ", 
+    "you're not very nice, ",
+    "I mingled with the dead with my Ouija board but not anymore, ",
+    "we're best friends, ", 
+    "I'm a necro-romantic, Imma suck on your blood, ", 
+    "what is this feeling? ",
+    "ohhhhhh baby baby, ", 
+    "I'm staying home feeling sick with my palm in my pants, ",
+    "tie me inside out, ",
+    "everything is my fault, "
+];
+
+pinkEnd = [
+    " c'est la vie baby.",
+    " baby, me feast on placenta, PLACENTA!", 
+    " SHE NEVER LOVED ME!", 
+    " are you going to look after my boys?",
+    " I want a chick who puts up with my shit.",
+    " life in L.A is so lonely...", 
+    " I want my west coast baby.",
+    " that's why I'm the sex king.",
+    " all I wanted was a girlfriend all of my life.", 
+    " penetration time tonight.",
+    " I'm breaking windows with my pain.",
+    " I'm so done with getting high in the morning.", 
+    " I used to hide in the dark."
+];
+
 function getLines(arr1, arr2, arr3) { // generate the lyric from random bits
     var currentMsg = document.getElementById("first_line");
     currentMsg.innerHTML ="...";
@@ -218,18 +418,6 @@ function message(arg) { // put the message in the textbox
     var elemContent = elem.firstChild.nodeValue;
     elemContent = elemContent.replace('...', arg);
     elem.firstChild.nodeValue = elemContent;
-    if (x.id === 'clicked') {
-        x.id = 'isaacpic';
-    }
-    if (y.id === 'clicked') {
-        y.id = 'bradpic';
-    }
-    if (z.id === 'clicked') {
-        z.id = 'malkmuspic';
-    }
-    if (v.id === 'clicked') {
-        v.id = 'mangumpic';
-    }
 };
 
 var ready = document.getElementById("button"); //get button id
@@ -246,6 +434,18 @@ ready.addEventListener('click', function() //check which button was clicked and 
     }
     if (v.id ==='clicked') {
         getLines(mangumBeginning, mangumMiddle, mangumEnd);
+    }
+    if (w.id ==='clicked') {
+        getLines(cuomoBeginning, cuomoMiddle, cuomoEnd);
+    }
+    if (u.id ==='clicked') {
+        getLines(elverumBeginning, elverumMiddle, elverumEnd);
+    }
+    if (r.id ==='clicked') {
+        getLines(bejarBeginning, bejarMiddle, bejarEnd);
+    }
+    if (s.id ==='clicked') {
+        getLines(pinkBeginning, pinkMiddle, pinkEnd);
     }
 }, false);
 

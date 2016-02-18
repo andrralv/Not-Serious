@@ -8,81 +8,116 @@
 		<meta name="description" content="Lyric generator website">
 		<meta name="keywords" content="javascript html5 css3 bradfox cox isaac brock stephen malkmus lyric generator">
 		<meta name="author" content="andralv77@gmail.com">
-		<link href="css/lyricgenerator.css" type="text/css" rel="stylesheet" />
+		<link href="css/lyricgenerator2.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
-		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16"/>
 	</head>
 	<body>
-		<div class="wrapper">
-			<h1>White Problematic Kid Lyrics Generator</h1>
-			<h3>Choose your character: </h3>
-				<div class ="characters">
-					<table>
-						<tr>
-							<td><p>Isaac Brock</p>
-							<td><p>Bradford Cox</p>
-							<td><p>Stephen Malkmus</p>
-							<td><p>Jeff Mangum</p>
-						<tr>
-							<td><div class="isaac" id="isaacpic"></td></div>
-							<td><div class="bradford" id="bradpic"></td></div>
-							<td><div class="malkmus" id="malkmuspic"></td></div>
-							<td><div class="mangum" id="mangumpic"></td></div>
-						</tr>
-					</table>
+		<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+			<div class="wrapper">
+				<h1>| WHITE PROBLEMATIC KID LYRICS GENERATOR |</h1>
+				<h3>Choose your character: </h3>
+					<div class ="characters">
+						<table>
+							<tr>
+								<td class="nameborder"><p>Isaac Brock</p>
+								<td class="nameborder"><p>Bradford Cox</p>
+								<td class="nameborder"><p>Stephen Malkmus</p>
+								<td class="nameborder"><p>Jeff Mangum</p>
+							</tr>
+							<tr>
+								<td><div class="isaac" id="isaacpic"></div></td>
+								<td><div class="bradford" id="bradpic"></div></td>
+								<td><div class="malkmus" id="malkmuspic"></div></td>
+								<td><div class="mangum" id="mangumpic"></div></td>
+							</tr>
+							<tr>
+								<td class="nameborder"><p>Rivers Cuomo</p>
+								<td class="nameborder"><p>Phil Elverum</p>
+								<td class="nameborder"><p>Dan Bejar</p>
+								<td class="nameborder"><p>Ariel Pink</p>
+							</tr>
+							<tr>
+								<td><div class="cuomo" id="cuomopic"></div></td>
+								<td><div class="elverum" id="elverumpic"></div></td>
+								<td><div class="bejar" id="bejarpic"></td></div>
+								<td><div class="pink" id="pinkpic"></div></td>
+							</tr>
+						</table>
+					</div>
+					<div class="container">
+						<p id="first_line">...</p>
+					</div>
+				<input type="submit" name="" value="" id="button"> 
+				<div class="footer">
+					<p>All lyrics, words and rights by their respective artists. 2015.</p>
 				</div>
-				<div class="container">
-					<p id="first_line">...</p>
-				</div>
-			<input type="submit" name="" value="" id="button"> 
-			<br />
-			<br />
-			<div class="footer">
-				<p>All lyrics, words and rights by their respective artists.</p>
+				<script>
+					function myFunc(arg) {
+   						frameisaac.style.backgroundPosition = "0 0";
+   						framebrad.style.backgroundPosition = "0 0";
+  						framemalkmus.style.backgroundPosition = "0 0";
+ 						framemangum.style.backgroundPosition = "0 0";
+ 						framecuomo.style.backgroundPosition = "0 0";
+  						frameelverum.style.backgroundPosition = "0 0";
+ 						framebejar.style.backgroundPosition = "0 0";
+   						framepink.style.backgroundPosition = "0 0";
+  						frameisaac.id = 'not_clicked';
+   						framebrad.id = 'not_clicked';
+ 						framemalkmus.id = 'not_clicked';
+  						framemangum.id = 'not_clicked';
+ 						framecuomo.id = 'not_clicked';
+  						frameelverum.id = 'not_clicked';
+  						framebejar.id = 'not_clicked';
+ 						framepink.id = 'not_clicked';
+  						arg.style.backgroundPosition = "125px 0";
+  						arg.id = 'clicked';
+					}
+				var frameisaac = document.getElementById('isaacpic');
+				frameisaac.addEventListener('click', function()
+					{
+						myFunc(frameisaac);	
+					}, false);
+				var framebrad = document.getElementById('bradpic');
+				framebrad.addEventListener('click', function()
+					{
+						myFunc(framebrad);
+					}, false);
+				var framemalkmus = document.getElementById('malkmuspic');
+				framemalkmus.addEventListener('click', function()
+					{
+						myFunc(framemalkmus);
+					}, false);
+				var framemangum = document.getElementById('mangumpic');
+				framemangum.addEventListener('click', function()
+					{
+						myFunc(framemangum);
+					}, false);
+				var framecuomo = document.getElementById('cuomopic');
+				framecuomo.addEventListener('click', function()
+					{
+						myFunc(framecuomo);
+					}, false);
+				var frameelverum = document.getElementById('elverumpic');
+				frameelverum.addEventListener('click', function()
+					{
+						myFunc(frameelverum);
+					}, false);
+				var framebejar = document.getElementById('bejarpic');
+				framebejar.addEventListener('click', function()
+					{
+						myFunc(framebejar);
+					}, false);
+				var framepink = document.getElementById('pinkpic');
+				framepink.addEventListener('click', function()
+					{
+						myFunc(framepink);
+					}, false);
+			</script>
+			<script src="javascript/lyricgenerator.js"></script>
+			<script src="../Bootstrap/js/bootstrap.min.js"></script>
 			</div>
-		<script>
-			function myFunc(arg) {
-				if (arg.className === 'isaac') {
-					arg.id = 'isaacpic';
-				} 
-				if (arg.className === 'bradford') {
-					arg.id = 'bradpic';
-				}
-				if (arg.className === 'malkmus') {
-					arg.id = 'malkmuspic';
-				} 
-				if (arg.className === 'mangum') {
-					arg.id = 'mangumpic';
-				}
-				frameisaac.style.backgroundPosition = "0 0";
-				framebrad.style.backgroundPosition = "0 0";
-				framemalkmus.style.backgroundPosition = "0 0";
-				framemangum.style.backgroundPosition = "0 0";
-				arg.style.backgroundPosition = "125px 0";
-				arg.id = 'clicked';
-			}
-			var frameisaac = document.getElementById('isaacpic');
-			frameisaac.addEventListener('click', function()
-				{
-					myFunc(frameisaac);	
-				}, false);
-			var framebrad = document.getElementById('bradpic');
-			framebrad.addEventListener('click', function()
-				{
-					myFunc(framebrad);
-				}, false);
-			var framemalkmus = document.getElementById('malkmuspic');
-			framemalkmus.addEventListener('click', function()
-				{
-					myFunc(framemalkmus);
-				}, false);
-			var framemangum = document.getElementById('mangumpic');
-			framemangum.addEventListener('click', function()
-				{
-					myFunc(framemangum);
-				}, false);
-		</script>
-		<script src="javascript/lyricgenerator.js"></script>
 		</div>
 	</body>
 </html>
