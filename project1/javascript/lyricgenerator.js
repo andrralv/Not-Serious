@@ -1,14 +1,75 @@
 // lyrics generator 
 
-// get first element by class
-x = document.getElementsByClassName('isaac')[0];
-y = document.getElementsByClassName('bradford')[0];
-z = document.getElementsByClassName('malkmus')[0];
-v = document.getElementsByClassName('mangum')[0];
-w = document.getElementsByClassName('cuomo')[0];
-u = document.getElementsByClassName('elverum')[0];
-r = document.getElementsByClassName('bejar')[0];
-s = document.getElementsByClassName('pink')[0];
+frameisaac = document.getElementById('isaacpic');
+framebrad = document.getElementById('bradpic');
+framemalkmus = document.getElementById('malkmuspic');
+framemangum = document.getElementById('mangumpic');
+framecuomo = document.getElementById('cuomopic');
+frameelverum = document.getElementById('elverumpic');
+framebejar = document.getElementById('bejarpic');
+framepink = document.getElementById('pinkpic');
+
+
+function myFunc(arg) {
+    frameisaac.style.backgroundPosition = "0 0";
+    framebrad.style.backgroundPosition = "0 0";
+    framemalkmus.style.backgroundPosition = "0 0";
+    framemangum.style.backgroundPosition = "0 0";
+    framecuomo.style.backgroundPosition = "0 0";
+    frameelverum.style.backgroundPosition = "0 0";
+    framebejar.style.backgroundPosition = "0 0";
+    framepink.style.backgroundPosition = "0 0";
+    frameisaac.classList.remove("clicked");
+    framebrad.classList.remove("clicked");
+    framemalkmus.classList.remove("clicked");
+    framemangum.classList.remove("clicked");
+    framecuomo.classList.remove("clicked");
+    frameelverum.classList.remove("clicked");
+    framebejar.classList.remove("clicked");
+    framepink.classList.remove("clicked");
+    arg.style.backgroundPosition = "125px 0";
+    arg.classList.add("clicked");
+}
+
+frameisaac.addEventListener('click', function()
+    {
+        myFunc(frameisaac); 
+    }, false);
+
+framebrad.addEventListener('click', function()
+    {
+        myFunc(framebrad);
+    }, false);
+
+framemalkmus.addEventListener('click', function()
+    {
+        myFunc(framemalkmus);
+    }, false);
+
+framemangum.addEventListener('click', function()
+    {
+        myFunc(framemangum);
+    }, false);
+
+framecuomo.addEventListener('click', function()
+    {
+        myFunc(framecuomo);
+    }, false);
+
+frameelverum.addEventListener('click', function()
+    {
+        myFunc(frameelverum);
+    }, false);
+
+framebejar.addEventListener('click', function()
+    {
+        myFunc(framebejar);
+    }, false);
+
+framepink.addEventListener('click', function()
+    {
+        myFunc(framepink);
+    }, false);
 
 // properties for Isaac
 isaacBeginning = [
@@ -316,7 +377,7 @@ bejarBeginning = [
     "When I'm at war I insist on slaughter and getting it on with the hangman's daughter, ",
     "Brown paper bag, don't stop me now, ",
     "Hey, there's Christine, ", 
-    "Yes, I’m familiar with your scene, ",
+    "Yes, I'm familiar with your scene, ",
     "Now that you got it all... wrong.., ",
     "Listen.. I've been drinking, "
 ];
@@ -339,13 +400,13 @@ bejarMiddle = [
 
 bejarEnd = [
     " I don't know what I'm doing alone in the dark.",
-    " Nah, it’s cool you go, I’ll stay perfectly at home with this dread.", 
+    " Nah, it's cool you go, I'll stay perfectly at home with this dread.", 
     " ta-da-ta-da-daaa.", 
     " sounds, smash hits, melody maker, NME, all sound like a dream to me.",
     " death to the murderers we've loved all our lives.",
     " a bit of tears and a bit of pills.", 
     " baby it's dawn, look what I've become: scum.",
-    " let’s face it, old souls like us are being born to die.",
+    " let's face it, old souls like us are being born to die.",
     " words words words...", 
     " I was starving in that shithouse of the world.",
     " you've got to stop calling me honey.",
@@ -356,7 +417,7 @@ bejarEnd = [
 // properties for Pink
 pinkBeginning = [
     "Talk to me, it's now or never, babe, ",
-    "Possum discovered!  ",
+    "Possum discovered! ",
     "Tail is frozen, headlights in go over. Einstein was right, ",
     "Yeah, juicy Belladonna, ",
     "I want a girl as beautiful as the sunset, ",
@@ -423,29 +484,38 @@ function message(arg) { // put the message in the textbox
 var ready = document.getElementById("button"); //get button id
 ready.addEventListener('click', function() //check which button was clicked and call getlines
 {
-    if (x.id === 'clicked') {
+    if(frameisaac.classList.contains("clicked"))
+    {
         getLines(isaacBeginning, isaacMiddle, isaacEnd);
     }
-    if (y.id === 'clicked') {
+    if(framebrad.classList.contains("clicked"))
+    {
         getLines(bradBeginning, bradMiddle, bradEnd);
     }
-    if (z.id === 'clicked') {
+    if(framemalkmus.classList.contains("clicked"))
+    {
         getLines(malkmusBeginning, malkmusMiddle, malkmusEnd);
     }
-    if (v.id ==='clicked') {
+    if(framemangum.classList.contains("clicked"))
+    {
         getLines(mangumBeginning, mangumMiddle, mangumEnd);
     }
-    if (w.id ==='clicked') {
+    if(framecuomo.classList.contains("clicked"))
+    {
         getLines(cuomoBeginning, cuomoMiddle, cuomoEnd);
     }
-    if (u.id ==='clicked') {
+    if(frameelverum.classList.contains("clicked"))
+    {
         getLines(elverumBeginning, elverumMiddle, elverumEnd);
     }
-    if (r.id ==='clicked') {
+    if(framebejar.classList.contains("clicked"))
+    {
         getLines(bejarBeginning, bejarMiddle, bejarEnd);
     }
-    if (s.id ==='clicked') {
+    if(framepink.classList.contains("clicked"))
+    {
         getLines(pinkBeginning, pinkMiddle, pinkEnd);
     }
 }, false);
+
 
