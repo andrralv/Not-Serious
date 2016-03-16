@@ -11,8 +11,8 @@
 	website returns lines of their own lyrics randomly merged together in a full phrase.
 
 <h2> Project_02: Don Chayo </h2> 
-	Freelance Job - Basic company information website done fully in Bootstrap 3 and a few JQuery effects.
-
 <a href="http://donchayo.com">Don Chayo</a>
+
+	Freelance Job - Basic company information website done fully in Bootstrap 3 and a few JQuery effects.
 
 	Will connect to a backend mysql server using ajax requests.
