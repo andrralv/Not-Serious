@@ -1,0 +1,553 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"image",
+				"background-image"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"search",
+				"searchField"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"paddin-",
+				"padding-bottom"
+			],
+			[
+				"sear",
+				"searchField"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"background-i",
+				"background-image"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"getEleme",
+				"getElementsByClassName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1649,
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
+			}
+		},
+		{
+			"file": "CSS/style.css",
+			"settings":
+			{
+				"buffer_size": 2109,
+				"line_ending": "Windows",
+				"name": "header p {font-family: 'Roboto Slab', serif;}"
+			}
+		},
+		{
+			"file": "JS/onload.js",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Windows",
+				"name": "$(document).ready(function() {"
+			}
+		},
+		{
+			"file": "/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator2.css",
+			"settings":
+			{
+				"buffer_size": 2756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/andre/Documents/Programacion/otros/Tank/CSS/styles2.css",
+			"settings":
+			{
+				"buffer_size": 2114,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/JS/jquery-v1.12.0.js",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/style.css",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/stylesanim.css",
+		"/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator2.css",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/index.html",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/CS/style.css",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/partials/list.html",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/JS/script.js",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/partials/details.html",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/details.html",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/JS/app.js",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/data.json",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/JS/angular-1.5-route.min.js",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/JS/angularDoggos.sublime-project",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/test.html",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/CS/style.css",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/JS/script.js",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/index.html",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/test.html",
+		"/C/Users/andre/Documents/Programacion/otros/angularDoggos/JS/angular-1.5.js",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/sprite.html",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/index.html",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/styles2.css",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/clouds.html",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/indexRobots.html",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/styles.css",
+		"/C/Users/andre/Videos/Docus/Lynda Courses/Lynda - CSS_Animation/Ex_Files_CSS_Animation/Exercise Files/Chapter 03/03_02/styles.css",
+		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/style",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/doggoDatabase.sublime-project",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/data.json",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/JS/script",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/darylimg.jpg",
+		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/doggoDatabase.sublime-workspace",
+		"/C/wamp64/bin/apache/apache2.4.17/bin/php.ini",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/Projects/Proyecto/archivoTransaccion.xml",
+		"/C/Users/andre/Documents/GitHub/assorted/README.md",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/Projects/Proyecto/archivoComercio.xml",
+		"/C/Users/andre/Documents/archivoTransaccion.xml",
+		"/C/Users/andre/Documents/GitHub/web/JAVASCRIPT/example01.js",
+		"/C/Users/andre/Documents/archivoComercio.xml",
+		"/E/syslinux.cfg",
+		"/C/Program Files/glassfish-4.1.1/glassfish/domains/domain1/config/local-password",
+		"/C/Users/andre/Documents/Vicepresidente/nuevodisco.txt",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/conf/web.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/conf/server.xml",
+		"/C/Users/andre/Documents/server.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/webapps/ROOT/WEB-INF/web.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/conf/context.xml",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/calendar-js/calEvent.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/components/lightningTextCalendarConverter.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/modules/calUtils.jsm",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/calendar-js/calUtils.js",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/conf/Catalina/localhost/VideoClubSQL.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/conf/tomcat-users.xml",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/components/calCompositeCalendar.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/chrome.manifest",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/files/administracionRegistro.xml",
+		"/C/Users/andre/Documents/GitHub/graphic-and-architecture/.git/COMMIT_EDITMSG",
+		"/C/Users/andre/Documents/GitHub/web/README.md",
+		"/C/Users/andre/Documents/GitHub/graphic-and-architecture/README.md",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/calendar-js/calWcapCalendarItems.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/install.rdf",
+		"/C/findfile/testFile.manifest",
+		"/C/findfile/findfiles-window.xul",
+		"/C/calendarTest/testFile.manifest",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/calendar-js/calAlarm.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/components/calBackendLoader.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/components/calTimezoneService.js",
+		"/C/Users/andre/Documents/Programacion/otros/summer of code 2016/calendar xpi/defaults/preferences/lightning.js",
+		"/C/Users/andre/Documents/Programacion/otros/project2/css/donchayo2.css",
+		"/C/Users/andre/Documents/Programacion/otros/project2/index.html",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/files/catalogoRegistro.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.0/files/usuariosRegistro.xml",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra Web/Proyecto 1/css/style.css",
+		"/C/Users/andre/Documents/Notas/jsp notes.txt",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra Web/Proyecto 1/index.html",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra Web/servlets notes.txt",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra Web/Projects/WebApplication1/web/WEB-INF/catalogoRegistro.xml",
+		"/C/Users/andre/Documents/Programacion/otros/project2/css/donchayo.css",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/notas de progInt.txt",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra Web/Notas prograweb",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra Web/Proyects/prograWeb/src/prograweb/Notes about learn java in 24 hours.txt",
+		"/C/Users/andre/Documents/Programacion/otros/Apache/conf/tomcat-users.xml",
+		"/C/Users/andre/Documents/Programacion/otros/Apache/conf/web.xml",
+		"/C/Users/andre/Documents/CSS TRICKS",
+		"/C/Users/andre/Documents/Programacion/otros/Apache/conf/server.xml",
+		"/C/Users/andre/Documents/Programacion/otros/Apache/bin/catalina.bat",
+		"/C/Users/andre/Documents/Programacion/otros/Apache/conf/context.xml",
+		"/C/Program Files/NetBeans 8.1/netbeans.css",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Arquitectura de Computadoras/Notas de Arquitectura de computadoras.txt",
+		"/C/Users/andre/Documents/Notas/java notes 2015.txt",
+		"/C/Users/andre/Documents/Notas/notes about javascript.txt",
+		"/C/Users/andre/Documents/Programacion/otros/project1/index.html",
+		"/C/Users/andre/Documents/Programacion/otros/project1/javascript/lyricgenerator.js",
+		"/C/Users/andre/Documents/Programacion/otros/project2/index2.html",
+		"/C/Users/andre/Documents/Programacion/otros/project1/index2.html",
+		"/C/Users/andre/Documents/Programacion/otros/project2/css/donchayo2-extrasmall.css",
+		"/C/Users/andre/Documents/Programacion/otros/project2/css/donchayo2-small.css",
+		"/C/Users/andre/Documents/Notas/notes about html.txt",
+		"/C/Users/andre/Documents/Programacion/otros/Bootstrap/js/bootstrap.min.js",
+		"/C/Users/andre/Documents/Programacion/otros/Bootstrap/css/bootstrap.css",
+		"/C/Users/andre/Documents/Programacion/otros/project2/error.html",
+		"/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator.css",
+		"/C/Users/andre/Documents/Vicepresidente/letras compendio universal.txt",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Telematica/notas de telematica.txt",
+		"/C/Users/andre/Documents/Programacion/otros/Notes about learn java in 24 hours.txt",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/bootstrap notes.txt",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Progra II/notas de progInt.txt",
+		"/C/Users/andre/Documents/Programacion/otros/bootstrap notes formatted.txt",
+		"/C/Users/andre/Documents/Programacion/otros/cmder/vendor/git-for-windows/mingw32/share/doc/git-doc/git-pull.html",
+		"/C/Users/andre/Documents/Programacion/otros/root.txt",
+		"/C/Users/andre/Documents/Programacion/otros/cmder/vendor/clink/clink.html",
+		"/C/Users/andre/Documents/Programacion/otros/project1/javascript/lyricgenerator2.js",
+		"/C/Users/andre/Documents/Programacion/otros/project1/javascript/lyricgenerato3.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<br>",
+			"br",
+			"artist",
+			"conte",
+			"metadata",
+			"repeat",
+			"root",
+			"path",
+			"web",
+			"def",
+			"COME",
+			"visibili",
+			"forms"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1632,
+								1632
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CSS/style.css",
+					"settings":
+					{
+						"buffer_size": 2109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1778,
+								1778
+							]
+						],
+						"settings":
+						{
+							"auto_name": "header p {font-family: 'Roboto Slab', serif;}",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "JS/onload.js",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$(document).ready(function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator2.css",
+					"settings":
+					{
+						"buffer_size": 2756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2036,
+								2036
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/andre/Documents/Programacion/otros/Tank/CSS/styles2.css",
+					"settings":
+					{
+						"buffer_size": 2114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1921,
+								1913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/doggoDatabase.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 143.0,
+	"status_bar_visible": true
+}
