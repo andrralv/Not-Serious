@@ -14,26 +14,26 @@ nav {background-color: black;
 	opacity: 0.5}
 
 #wrapper {background-color: black;
-		background-repeat: no-repeat;
-		margin: auto;
-		width: 60%;
-		left: 20%;
-    	margin-right: auto;
-		margin-top: 2.5%;
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 60%;
+	left: 20%;
+    margin-right: auto;
+	margin-top: 2.5%;
 
-		animation-name: anim;
-		animation-duration: 5s;
-		animation-timing-function: ease-out;
+	animation-name: anim;
+	animation-duration: 5s;
+	animation-timing-function: ease-out;
 }
 
 header p {font-family: 'Roboto Slab', serif;
-		font-size: 4em;
-		margin: auto;
-		width:80%;
-		padding-left: 2%;
-		color: white;
-		padding-bottom: 4%;
-		padding-top: 4%;}
+	font-size: 4em;
+	margin: auto;
+	width:80%;
+	padding-left: 2%;
+	color: white;
+	padding-bottom: 4%;
+	padding-top: 4%;}
 
 h3 {font-family: "Roboto Mono", sans-serif;
 	font-size: 1em;
@@ -57,36 +57,36 @@ h3 {font-family: "Roboto Mono", sans-serif;
 		padding-bottom: 2.5%;}
 
 #links {padding-bottom: 15px;
-		margin: 0 auto;
-		width: 20%;
-		padding-left: 4%;}
+	margin: 0 auto;
+	width: 20%;
+	padding-left: 4%;}
 
 .link {padding-left: 8px;
 		padding-right: 8px;}
 
 #img1 {background-image: url('../images/tumblrsprite.png');
-		 height: 32px;
-		 width: 32px;
-		 background-position: 0 0;
-		 background-repeat: no-repeat;
-		 display: inline-block;
-		 }
+	height: 32px;
+	width: 32px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+		}
 
 #img2 {background-image: url('../images/fbsprite.png');
-		 height: 32px;
-		 width: 32px;
-		 background-position: 0 0;
-		 background-repeat: no-repeat;
-		 display: inline-block;
-		 }
+	height: 32px;
+	width: 32px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+		}
 
 #img3 {background-image: url('../images/igsprite.png');
-		 height: 32px;
-		 width: 32px;
-		 background-position: 0 0;
-		 background-repeat: no-repeat;
-		 display: inline-block;
-		 }
+	height: 32px;
+	width: 32px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+		}
 
 #img1:hover {
 	background-position: 0px -32px;
