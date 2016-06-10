@@ -120,7 +120,7 @@ footer * {position: fixed;}
 	left: 5%;
 	bottom: 10%;
 	margin: 0 auto;
-	width: 37%;
+	width: 48%;
 	background: #970000;
 	font-family: 'IM Fell Great Primer';
 	font-size: 1em;
@@ -138,6 +138,7 @@ footer * {position: fixed;}
 
 
 #popupYoutube a {
+	display: inline-block;
 	text-decoration: none;
 	color: white;
 }

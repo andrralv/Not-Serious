@@ -8,6 +8,7 @@
       <link href='https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400italic' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
       <link rel="stylesheet" type="text/css" href="CSS/jplayer.pink.flag.min.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
    </head>
    <body>
     <header>
@@ -54,14 +55,12 @@
           </div>
         </div>
       </div>
-      <script src="JS/jquery.min.js"></script>
-      <script src="JS/jquery.jplayer.min.js"></script>
-      <script src="JS/playerScript.js"></script>
-      <footer>
+
+      <footer ng-app="mainApp">
         <div id="circle" title="Music to listen this to..."><div id="triangle-right"></div></div>
-        <div id="popupYoutube">
+        <div id="popupYoutube" ng-controller="playlist">
           We recommend you listen to these tunes for today: &nbsp;
-          <a href="https://www.youtube.com/watch?v=IUVmcKcTZ4A" target="_blank">[Mort Garson - Plantasia]</a>
+          <a href="{{video.url}}" target="_blank">[{{video.artist}} - {{video.album}}]</a>
         </div>
         <div id="circleWhite" title="About..."><div id="cross">...</div></div>
         <div id="popupAbout">
@@ -71,5 +70,24 @@
           Rainforest Sound is developed and maintained by Andre Rodriguez | andralv77@gmail.com.
         </div>
       </footer>
+
+      <script>
+      console.log("Retrieving json file...");
+      var mainApp = angular.module("mainApp", []);
+      mainApp.controller("playlist", function($scope, $http) {
+      var theData = "html/cronjobs/selectedAlbum.json";
+         
+        $http.get(theData).success( function(response) {
+          console.log("Data retrieved successfully");
+          $scope.video = {};
+          $scope.video.artist = response.artist;
+          $scope.video.album = response.album;
+          $scope.video.url = response.url;
+          });
+       });
+      </script>
+      <script src="JS/jquery.min.js"></script>
+      <script src="JS/jquery.jplayer.min.js"></script>
+      <script src="JS/playerScript.js"></script>
     </body>
 </html>

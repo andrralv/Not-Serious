@@ -7,7 +7,7 @@ $(document).ready(function() {
         ready: function () {
             $(this).jPlayer("setMedia", {
             title: "RainForest",
-            mp3: "http://ec2-52-40-79-161.us-west-2.compute.amazonaws.com/audio/rainforest.mp3"
+            mp3: "audio/rainforest.mp3"
             }).jPlayer("play", rand);
         },
         ended: function() {
