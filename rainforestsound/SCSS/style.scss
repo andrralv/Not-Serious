@@ -1,0 +1,43 @@
+
+/* screens bigger than 1366px */
+
+// query for 1280px
+@import 'main';
+
+// query for more than 1420px
+@import 'plus1400';
+
+// query for more than 1600px
+@import 'plus1600';
+
+// query for huge-ass screens
+@import 'plus1720';
+
+// even bigger screens
+@import 'plus2100';
+
+/* screens smaller than 1366px */
+
+// query for less than 1360px
+@import 'minus1360';
+
+// query for less than 1200px
+@import 'minus1200';
+
+// query for less than 1028px
+@import 'minus1028';
+
+// query for less than 840px
+@import 'minus840';
+
+// query for less than 720px
+@import 'minus720';
+
+// query for less than 560px
+@import 'minus560';
+
+// query for less than 480px
+@import 'minus480';
+
+// query for less than 480px
+@import 'minus360';

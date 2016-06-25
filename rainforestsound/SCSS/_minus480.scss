@@ -1,0 +1,56 @@
+@media all and (min-width: 360px) and (max-width: 480px) {
+
+	@mixin setSize($arg) {
+		-moz-border-radius: $arg;
+		webkit-border-radius: $arg; 
+		border-radius: $arg; 
+	}
+
+	header {
+		width: 95%;
+		margin: 0 auto;
+		padding-right: 2%;
+		h1 {
+			width: 100%;
+			font-size: 1.5em;
+			padding-left: 24%;
+		}
+		h3 {
+			width: 100%;
+			padding-left: 1%;
+			font-size: 1.4em;
+		}
+		#volumeMeter {
+			padding-left: 16%;
+			#image {
+				max-width: 50px;
+				max-height: 50px;
+			}
+		}
+	}
+	footer {
+		#circle {
+			#popupYoutube {
+				display: inline-block;
+				bottom: 14%;
+				left: 2%;
+				width: 400px;
+				font-size: 0.8em;
+				a {
+					padding-left: 270px;
+				}
+			}
+		}
+		#circleWhite {
+			left: 82%;
+			#popupAbout {
+				left: 2%;
+				right: 2%;
+				height: 20%;
+				bottom: 14%;
+				width: 78%;
+				font-size: 0.8em;
+			}
+		}
+	}
+}

@@ -100,45 +100,44 @@
 	"buffers":
 	[
 		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1649,
+				"buffer_size": 2266,
 				"line_ending": "Windows",
 				"name": "<!DOCTYPE html>"
 			}
 		},
 		{
-			"file": "CSS/style.css",
+			"file": "playerScript.js",
 			"settings":
 			{
-				"buffer_size": 2109,
+				"buffer_size": 455,
 				"line_ending": "Windows",
-				"name": "header p {font-family: 'Roboto Slab', serif;}"
+				"name": "$(document).ready(function(){"
 			}
 		},
 		{
-			"file": "JS/onload.js",
+			"file": "bower.json",
 			"settings":
 			{
-				"buffer_size": 107,
-				"line_ending": "Windows",
-				"name": "$(document).ready(function() {"
-			}
-		},
-		{
-			"file": "/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator2.css",
-			"settings":
-			{
-				"buffer_size": 2756,
+				"buffer_size": 532,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/andre/Documents/Programacion/otros/Tank/CSS/styles2.css",
+			"file": "forestmood.sublime-project",
 			"settings":
 			{
-				"buffer_size": 2114,
+				"buffer_size": 281,
 				"line_ending": "Unix"
 			}
 		}
@@ -183,7 +182,25 @@
 	},
 	"file_history":
 	[
+		"/C/Users/andre/Documents/Programacion/webdev/forestmood/forestmood.sublime-workspace",
+		"/C/Users/andre/Documents/Programacion/webdev/forestmood/bower_components/jPlayer/.bower.json",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/Projects/Proyecto/archivoTransaccion.xml",
+		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/Projects/Proyecto/archivoComercio.xml",
+		"/C/Users/andre/Documents/Programacion/webdev/main.js",
+		"/C/Users/andre/Documents/Programacion/webdev/test.js",
+		"/C/Users/andre/Documents/Programacion/otros/main.js",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/package.json",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/bower.json",
+		"/C/Users/andre/Documents/Programacion/otros/test.js",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/gruntfile.js",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/CSS/style.css",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/index.html",
+		"/C/Users/andre/Documents/Programacion/otros/test/style.css",
+		"/C/Users/andre/Documents/Programacion/otros/test/index.html",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/JS/script.js",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/JS/onload.js",
 		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/JS/jquery-v1.12.0.js",
+		"/C/Users/andre/Documents/Programacion/otros/superlegitimo/JS/waitForImages.js",
 		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/style.css",
 		"/C/Users/andre/Documents/Programacion/otros/Tank/CSS/stylesanim.css",
 		"/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator2.css",
@@ -217,9 +234,7 @@
 		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/darylimg.jpg",
 		"/C/Users/andre/Documents/Programacion/otros/doggoDatabase/doggoDatabase.sublime-workspace",
 		"/C/wamp64/bin/apache/apache2.4.17/bin/php.ini",
-		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/Projects/Proyecto/archivoTransaccion.xml",
 		"/C/Users/andre/Documents/GitHub/assorted/README.md",
-		"/C/Users/andre/Documents/Programacion/2016 I cuatri/Programacion II/Projects/Proyecto/archivoComercio.xml",
 		"/C/Users/andre/Documents/archivoTransaccion.xml",
 		"/C/Users/andre/Documents/GitHub/web/JAVASCRIPT/example01.js",
 		"/C/Users/andre/Documents/archivoComercio.xml",
@@ -294,9 +309,7 @@
 		"/C/Users/andre/Documents/Programacion/otros/bootstrap notes formatted.txt",
 		"/C/Users/andre/Documents/Programacion/otros/cmder/vendor/git-for-windows/mingw32/share/doc/git-doc/git-pull.html",
 		"/C/Users/andre/Documents/Programacion/otros/root.txt",
-		"/C/Users/andre/Documents/Programacion/otros/cmder/vendor/clink/clink.html",
-		"/C/Users/andre/Documents/Programacion/otros/project1/javascript/lyricgenerator2.js",
-		"/C/Users/andre/Documents/Programacion/otros/project1/javascript/lyricgenerato3.js"
+		"/C/Users/andre/Documents/Programacion/otros/cmder/vendor/clink/clink.html"
 	],
 	"find":
 	{
@@ -344,30 +357,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 1649,
+						"buffer_size": 475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1632,
-								1632
+								446,
+								446
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<!DOCTYPE html>",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -377,52 +390,53 @@
 				},
 				{
 					"buffer": 1,
-					"file": "CSS/style.css",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2109,
+						"buffer_size": 2266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1778,
-								1778
+								2266,
+								2266
 							]
 						],
 						"settings":
 						{
-							"auto_name": "header p {font-family: 'Roboto Slab', serif;}",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1120.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "JS/onload.js",
+					"file": "playerScript.js",
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								291,
+								291
 							]
 						],
 						"settings":
 						{
-							"auto_name": "$(document).ready(function() {",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "$(document).ready(function(){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -432,55 +446,54 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/andre/Documents/Programacion/otros/project1/css/lyricgenerator2.css",
+					"file": "bower.json",
 					"settings":
 					{
-						"buffer_size": 2756,
+						"buffer_size": 532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2036,
-								2036
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1120.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/andre/Documents/Programacion/otros/Tank/CSS/styles2.css",
+					"file": "forestmood.sublime-project",
 					"settings":
 					{
-						"buffer_size": 2114,
+						"buffer_size": 281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1921,
-								1913
+								281,
+								281
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 840.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -548,6 +561,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 143.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true
 }

@@ -1,159 +1,578 @@
+/* screens bigger than 1366px */
 html {
-	height: 100%;
-	overflow-y: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-	background-image: url("../images/bgjungle.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;;
-	background-color: #cccccc;}
+  background-image: url("../images/bgjungle.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #cccccc;
+  overflow: hidden;
+}
+
+#wrapper {
+  height: 100%;
+  width: 100%;
+}
 
 #playerWrapper {
-	visibility: hidden;
-	padding-left: 200px;
+  visibility: hidden;
+  padding-left: 200px;
 }
 
 header {
-	padding-left: 2%;
-	padding-top: 15%;
-	margin: 0 auto;
-	width: 30%;}
-
+  padding-left: 3.5%;
+  padding-top: 15%;
+  margin: 0 auto;
+  width: 30%;
+}
 header h1 {
-	font-family: 'IM Fell Great Primer', serif;
-	color: white;
-	font-size: 3em;
-	text-shadow: 3px 3px 10px black;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
+  font-size: 3em;
+  text-shadow: 3px 3px 10px black;
 }
-
-header h3 {font-family: 'IM Fell Great Primer';
-	font-style: italic;
-	text-align: center;
-	color:white;
-	font-size: 1.5em;
-	padding-right: 5%;
-	text-shadow: 2px 2px 10px black;
+header h3 {
+  font-family: 'IM Fell Great Primer';
+  font-style: italic;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding-right: 5%;
+  text-shadow: 2px 2px 10px black;
 }
-
-header #volumeMeter {margin: 0 auto;
-	width: 30%;}
+header #volumeMeter {
+  margin: 0 auto;
+  width: 30%;
+}
+header #volumeMeter:hover {
+  opacity: 0.3;
+}
 
 #image {
-	position: absolute;
-	vertical-align: center;
-	margin-left: auto;
-    margin-right: auto;
+  position: absolute;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-header #volumeMeter:hover {
-	opacity: 0.3;
+footer * {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
 }
 
-footer * {position: fixed;}
-
-#circle {position: absolute;
-	width: 50px; 
-	height: 50px;
-	margin-bottom: 3%;
-	background: #C21111; 
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px; 
-	border-radius: 25px; 
-} 
-
-
+#circle {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 3%;
+  left: 1.5%;
+  background: #C21111;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
 #circle #triangle-right {
-	position: absolute;
-	padding: 0 auto;
-	margin: 0 auto;
-	width: 80%; 
-	top: 40%;
-	left: 40%;
-	border-top: 5px solid transparent; 
-	border-left: 10px solid white; 
-	border-bottom: 5px solid transparent; 
+  position: relative;
+  margin: 0 auto;
+  vertical-align: middle;
+  top: 35%;
+  left: 2%;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-left: 10px solid white;
+  border-bottom: 6px solid transparent;
 }
 
 #circle:hover {
-	background: #790C0C
+  background: #790C0C;
 }
 
-#circleWhite {position: relative;
-	width: 50px; 
-	height: 50px;
-	left: 96.5%;
-	margin-bottom: 3%;
-	background: white; 
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px; 
-	border-radius: 25px; 
-} 
-
-#cross {
-	position: relative;
-	font-family: 'IM Fell Great Primer';
-	margin: 0 auto;
-	width: 80%;
-	padding-left: 30%;
-	font-size: 2em;  
+#circleWhite {
+  width: 50px;
+  height: 50px;
+  left: 94.5%;
+  margin-bottom: 3%;
+  background: white;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
 }
-
-#cross {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+#circleWhite #cross {
+  position: relative;
+  font-family: 'IM Fell Great Primer';
+  margin: 0 auto;
+  width: 80%;
+  padding-left: 30%;
+  font-size: 2em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #circleWhite:hover {
-	cursor: default;
-	background: #9E9E9E;
+  cursor: default;
+  background: #9E9E9E;
 }
 
 #popupYoutube {
-	position: fixed;
-	left: 5%;
-	bottom: 10%;
-	margin: 0 auto;
-	width: 48%;
-	background: #970000;
-	font-family: 'IM Fell Great Primer';
-	font-size: 1em;
-	color: white;
-	border-radius: 5px;
-	border-style: solid;
-	border-width: 15px;
-	border-color: #970000;
-	visibility: hidden;
+  display: inline;
+  position: fixed;
+  left: 8%;
+  bottom: 12%;
+  margin: 0 auto;
+  width: 42%;
+  background: #970000;
+  font-family: 'IM Fell Great Primer';
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #970000;
+  visibility: hidden;
+  overflow: hidden;
 }
-
-#popupYoutube a:hover {
-	text-decoration: underline;
-}
-
-
 #popupYoutube a {
-	display: inline-block;
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
+  padding-left: 60%;
+}
+#popupYoutube a:hover {
+  text-decoration: underline;
 }
 
 #popupAbout {
-	position: fixed;
-	left: 57%;
-	bottom: 10%;
-	background: white;
-	margin: 0 auto;
-	font-family: 'IM Fell Great Primer';
-	color: black;
-	width: 37%;
-	border-radius: 10px;
-	border-style: solid;
-	border-width: 15px;
-	border-color: white;
-	visibility: hidden;
+  position: fixed;
+  left: 54%;
+  bottom: 12%;
+  background: white;
+  margin: 0 auto;
+  font-family: 'IM Fell Great Primer';
+  color: black;
+  width: 37%;
+  height: 12%;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: white;
+  visibility: hidden;
+}
+
+@media all and (min-width: 1420px) {
+  header {
+    padding-left: 3%;
+  }
+  header h1 {
+    padding-left: 5%;
+  }
+  header #volumeMeter {
+    padding-left: 4%;
+  }
+
+  #popupYoutube {
+    width: 37%;
+  }
+  #popupYoutube a {
+    padding-left: 60%;
+  }
+}
+@media all and (min-width: 1600px) {
+  header {
+    padding-left: 3%;
+  }
+  header h1 {
+    padding-left: 10%;
+  }
+  header #volumeMeter {
+    padding-left: 8%;
+  }
+
+  #popupYoutube {
+    width: 34%;
+  }
+  #popupYoutube a {
+    padding-left: 60%;
+  }
+}
+@media all and (min-width: 1820px) and (max-width: 2100px) {
+  header {
+    padding-left: 3%;
+  }
+  header h1 {
+    padding-left: 16%;
+  }
+  header #volumeMeter {
+    padding-left: 8%;
+  }
+
+  #popupYoutube {
+    width: 28%;
+  }
+  #popupYoutube a {
+    padding-left: 63%;
+  }
+
+  #popupAbout {
+    height: 8%;
+  }
+}
+@media all and (min-width: 2100px) {
+  header {
+    padding-left: 3%;
+  }
+  header h1 {
+    padding-left: 24%;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+
+  #popupYoutube {
+    width: 22%;
+  }
+  #popupYoutube a {
+    padding-left: 60%;
+  }
+}
+/* screens smaller than 1366px */
+@media all and (min-width: 1200px) and (max-width: 1360px) {
+  header {
+    width: 45%;
+    margin: 0 auto;
+    padding-left: 6%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 2.6em;
+    padding-left: 13%;
+  }
+  header h3 {
+    width: 80%;
+    font-size: 1.2em;
+    padding-left: 2%;
+  }
+  header #volumeMeter {
+    padding-left: 1%;
+  }
+  header #volumeMeter #image {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  footer #circle #popupYoutube {
+    font-size: 0.89em;
+  }
+  footer #circleWhite #popupAbout {
+    font-size: 0.89em;
+  }
+}
+@media all and (min-width: 1028px) and (max-width: 1200px) {
+  header {
+    width: 45%;
+    margin: 0 auto;
+    padding-left: 6%;
+  }
+  header h1 {
+    padding-left: 12%;
+    width: 100%;
+    font-size: 2.8em;
+  }
+  header h3 {
+    width: 85%;
+    padding-left: 8%;
+    font-size: 1.6em;
+  }
+  header #volumeMeter {
+    padding-left: 12%;
+  }
+  header #volumeMeter #image {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  footer #circle #popupYoutube {
+    width: 500px;
+    font-size: 0.85em;
+    bottom: 4%;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 300px;
+  }
+  footer #circleWhite #popupAbout {
+    font-size: 0.85em;
+  }
+}
+@media all and (min-width: 840px) and (max-width: 1028px) {
+  header {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 6%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 2.6em;
+    padding-left: 22%;
+  }
+  header h3 {
+    width: 100%;
+    padding-left: 1%;
+    font-size: 1.8em;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+  header #volumeMeter #image {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  footer #circle #popupYoutube {
+    width: 500px;
+    font-size: 0.85em;
+    bottom: 4%;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 290px;
+  }
+  footer #circleWhite {
+    left: 92%;
+  }
+  footer #circleWhite #popupAbout {
+    left: 35%;
+    bottom: 4%;
+    width: 50%;
+    font-size: 0.8em;
+  }
+}
+@media all and (min-width: 720px) and (max-width: 840px) {
+  header {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 6%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 2.6em;
+    padding-left: 16%;
+  }
+  header h3 {
+    width: 100%;
+    padding-left: 1%;
+    font-size: 1.8em;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+  header #volumeMeter #image {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  footer #circle #popupYoutube {
+    bottom: 4%;
+    left: 10%;
+    width: 450px;
+    font-size: 0.8em;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 280px;
+  }
+  footer #circleWhite {
+    left: 92%;
+  }
+  footer #circleWhite #popupAbout {
+    left: 35%;
+    bottom: 4%;
+    width: 50%;
+    font-size: 0.8em;
+  }
+}
+@media all and (min-width: 560px) and (max-width: 720px) {
+  header {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 6%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 2.6em;
+    padding-left: 16%;
+  }
+  header h3 {
+    width: 100%;
+    padding-left: 1%;
+    font-size: 1.8em;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+  header #volumeMeter #image {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  footer #circle #popupYoutube {
+    bottom: 4%;
+    left: 10%;
+    width: 450px;
+    font-size: 0.8em;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 280px;
+  }
+  footer #circleWhite {
+    left: 90%;
+  }
+  footer #circleWhite #popupAbout {
+    left: 24%;
+    bottom: 4%;
+    width: 60%;
+    font-size: 0.8em;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 560px) {
+  header {
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 4%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 2em;
+    padding-left: 24%;
+  }
+  header h3 {
+    width: 100%;
+    padding-left: 1%;
+    font-size: 1.4em;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+  header #volumeMeter #image {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  footer #circle #popupYoutube {
+    bottom: 4%;
+    left: 12.5%;
+    width: 420px;
+    font-size: 0.75em;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 260px;
+  }
+  footer #circleWhite {
+    left: 88%;
+  }
+  footer #circleWhite #popupAbout {
+    left: 14%;
+    bottom: 4%;
+    width: 64%;
+    font-size: 0.8em;
+  }
+}
+@media all and (min-width: 360px) and (max-width: 480px) {
+  header {
+    width: 95%;
+    margin: 0 auto;
+    padding-right: 2%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 24%;
+  }
+  header h3 {
+    width: 100%;
+    padding-left: 1%;
+    font-size: 1.4em;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+  header #volumeMeter #image {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  footer #circle #popupYoutube {
+    display: inline-block;
+    bottom: 14%;
+    left: 2%;
+    width: 400px;
+    font-size: 0.8em;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 270px;
+  }
+  footer #circleWhite {
+    left: 82%;
+  }
+  footer #circleWhite #popupAbout {
+    left: 2%;
+    right: 2%;
+    height: 20%;
+    bottom: 14%;
+    width: 78%;
+    font-size: 0.8em;
+  }
+}
+@media all and (max-width: 360px) {
+  header {
+    width: 95%;
+    margin: 0 auto;
+    padding-right: 2%;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 14%;
+  }
+  header h3 {
+    width: 100%;
+    padding-left: 1%;
+    font-size: 1.4em;
+  }
+  header #volumeMeter {
+    padding-left: 16%;
+  }
+  header #volumeMeter #image {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  footer #circle #popupYoutube {
+    display: inline-block;
+    bottom: 14%;
+    left: 2%;
+    width: 400px;
+    font-size: 0.8em;
+  }
+  footer #circle #popupYoutube a {
+    padding-left: 270px;
+  }
+  footer #circleWhite {
+    left: 82%;
+  }
+  footer #circleWhite #popupAbout {
+    left: 2%;
+    right: 2%;
+    height: 20%;
+    bottom: 14%;
+    width: 78%;
+    font-size: 0.8em;
+  }
+}

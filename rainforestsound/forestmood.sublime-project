@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/Users/andre/Documents/Programacion/webdev/forestmood"
+		}
+	], 
+	"settings":
+	{
+		"sublime-view-in-browser":
+		{
+			"basePath": "C:\\Users\\andre\\Documents\\Programacion\\webdev\\forestmood",
+			"baseUrl": "http://localhost/forestmood"
+		}
+	}
+}

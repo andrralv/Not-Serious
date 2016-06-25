@@ -1,7 +1,10 @@
+// when document is ready
 $(document).ready(function() {
+    // create random number
     function ranNum() {
        return Math.floor((Math.random() * 2300) + 1)
     };
+    // set the audio file
     var rand = ranNum();
     $("#jquery_jplayer_1").jPlayer({
         ready: function () {
@@ -10,6 +13,7 @@ $(document).ready(function() {
             mp3: "audio/rainforest.mp3"
             }).jPlayer("play", rand);
         },
+        // when it ends play it again from a random position
         ended: function() {
         $(this).jPlayer("play", rand);
         },
@@ -24,6 +28,7 @@ $(document).ready(function() {
     toggleDuration: true
     }).hide();
 
+    // volume selectors
     $('#image').on({
     'click': function(){
 
@@ -50,10 +55,13 @@ $(document).ready(function() {
         }
     });
 
+    // media link circles
     $('#circle').click(function () {
         var visible = $('#popupYoutube').css('visibility');
         if (visible === 'hidden') {
-            $('#popupYoutube').css('visibility', 'visible').hide().fadeIn('slow').delay(5000).fadeOut('slow');
+            $('#popupYoutube').css('visibility', 'visible').hide().fadeIn('slow').delay(5000).fadeOut('slow', function() {
+                $(this).css('visibility', 'hidden');
+            });
         } else if (visible === 'visible') {
             $('#popupYoutube').fadeOut('slow', function() {
                 $('#popupYoutube').css('visibility', 'hidden')
@@ -65,7 +73,9 @@ $(document).ready(function() {
     $('#circleWhite').click(function () {
         var visible = $('#popupAbout').css('visibility');
         if (visible === 'hidden') {
-            $('#popupAbout').css('visibility', 'visible').hide().fadeIn('slow').delay(7000).fadeOut('slow');
+            $('#popupAbout').css('visibility', 'visible').hide().fadeIn('slow').delay(7000).fadeOut('slow', function() {
+                $(this).css('visibility', 'hidden');
+            });
         } else if (visible === 'visible') {
             $('#popupAbout').fadeOut('slow', function() {
                 $('#popupAbout').css('visibility', 'hidden')
