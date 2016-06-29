@@ -1,0 +1,40 @@
+body {
+  background-color: #160325;
+  color: #00dd05;
+  text-align: center;
+  font-family: 'VT323', sans-serif;
+  font-size: 1.3em; }
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 50px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 60px;
+  /* Height of the footer */ }
+  footer #centerMe {
+    margin-left: auto;
+    margin-right: auto; }
+
+#wrapper #info {
+  background-color: black; }
+#wrapper #hideMe {
+  font-size: 4em;
+  color: #160325;
+  margin: 0 0; }
+#wrapper #nav {
+  text-align: center; }
+#wrapper li {
+  list-style-type: none;
+  float: left;
+  clear: bottom; }
+#wrapper ul {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 530px; }
+
+/*# sourceMappingURL=style.css.map */
