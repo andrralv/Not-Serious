@@ -3,7 +3,6 @@
     <title>holagarnier</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
-    <link rel="icon" type="image/png" href="icon.png" sizes="16x16"/>
 </head>
     <body>
         <div id="wrapper">
@@ -12,7 +11,7 @@
                 <?php include("partials/browserRead.php"); ?>
             </div>
             <p id="spooky">
-                Eso es tan sólo una parte de la información que puedo obtener de voz sin recurrir a los malos métodos,
+                Eso es tan sólo una parte de la información que puedo obtener de vos sin recurrir a los malos métodos,
                 y eso es tan sólo una mínima parte de la información que las grandes corporaciones pueden obtener de vos.
             </p>
             <p id="cifrado">
