@@ -1,0 +1,122 @@
+/* layout for the Isaac Brock Lyric Generator Website */
+
+html, body {background-image: url("../images/bgpattern.png");
+	text-align:center;
+	font-family: 'Bitter', serif;
+    margin:  0px auto;
+	height: auto !important;
+	min-height: 100px;}
+
+h1 {font-size:30px;
+	position:relative;
+	bottom:10px;}
+
+h3 {margin: 0 0;
+	padding: 0 0;}
+
+.wrapper {width:800px;
+		margin: 0 auto;
+		padding-top: 1px;
+		max-height: 100%;
+		min-height: 100%;
+		background-color:#FFFAD1;
+		background-position:center;
+		margin: 0 auto -4em;
+		border:3px;
+		border-style: solid;}
+
+.container {background-color:#000000;
+		position:relative;
+		bottom:18px;
+		height:100px;
+		margin:0;
+		padding:0;
+		margin-right:18%;
+		margin-left:18%;
+		border-radius: 0px 0px 25px 25px;
+		color:white;}
+
+.container p {padding: 5px;}
+
+.footer {margin-top:80px;
+		padding-top:2.5%;
+		background-color:#DEFF00;
+		height: 4em;}
+
+.isaac {background-image: url('../images/spriteisaac.jpg');
+		height: 150px;
+		width: 125px;
+		background-position: 0 0;
+		}
+
+.bradford {background-image: url('../images/spritebradford.jpg');
+		height: 150px;
+		width: 125px;
+		background-position: 0 0;
+		}
+
+input[type="submit"] {
+	background:url('../images/buttonsprite.png');
+	height:24px;
+	width:110px;
+	background-position: 0 0;
+}
+
+.malkmus {background-image: url('../images/spritestephen.jpg');
+		height: 150px;
+		width: 125px;
+		background-position: 0 0;
+		}
+.mangum {background-image: url('../images/spritemangum.jpg');
+		height: 150px;
+		width: 125px;
+		background-position: 0 0;
+		}
+
+.cuomo {background-image: url('../images/spritecuomo.jpg');
+		height: 150px;
+		width: 125px;
+		background-position: 0 0;
+		}
+
+.elverum {background-image: url('../images/spriteelverum.jpg');
+		 height: 150px;
+		 width: 125px;
+		 background-position: 0 0;
+		 }
+
+.bejar {background-image: url('../images/spritebejar.jpg');
+		 height: 150px;
+		 width: 125px;
+		 background-position: 0 0;
+		 }
+
+.pink {background-image: url('../images/spriteariel.jpg');
+		 height: 150px;
+		 width: 125px;
+		 background-position: 0 0;
+		 }
+
+.nameborder {margin: 0 0;
+			padding: 0 0;
+			height: 5px;
+			background-color: black;
+			color: white;}
+
+
+.isaac:hover {background-position: -125px 0 !important;}
+.bradford:hover {background-position: -125px 0 !important;}
+.malkmus:hover {background-position: -125px 0 !important;}
+.mangum:hover {background-position: -125px 0 !important;}
+.cuomo:hover {background-position: -125px 0 !important;}
+.elverum:hover {background-position: -125px 0 !important;}
+.bejar:hover {background-position: -125px 0 !important;}
+.pink:hover {background-position: -125px 0 !important;}
+
+
+input[type="submit"]:hover {background-position: 0 -24px !important;}
+
+.characters {position:relative;
+			left:140px;
+			font-size: 12px
+			}
