@@ -25,12 +25,14 @@ body {
 }
 
 header {
-  padding-left: 3.5%;
-  padding-top: 15%;
-  margin: 0 auto;
-  width: 30%;
+  padding-top:12%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
 }
 header h1 {
+  text-align: center;
   font-family: 'IM Fell Great Primer', serif;
   color: white;
   font-size: 3em;
@@ -42,13 +44,12 @@ header h3 {
   text-align: center;
   color: white;
   font-size: 1.5em;
-  padding-right: 5%;
   text-shadow: 2px 2px 10px black;
 }
 header #volumeMeter {
-  margin: 0 auto;
-  width: 30%;
-  padding-left: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
 }
 header #volumeMeter:hover {
   opacity: 0.3;
@@ -173,89 +174,4 @@ footer * {
   border-width: 15px;
   border-color: white;
   visibility: hidden;
-}
-
-header {
-  padding-left: 3%;
-}
-header h1 {
-  padding-left: 3%;
-}
-header #volumeMeter {
-  padding-left: 4%;
-}
-
-@media all and (max-width: 800px) {
-  header {
-    width: 95%;
-    margin: 0 auto;
-    padding-right: 2%;
-  }
-  header h1 {
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 14%;
-  }
-  header h3 {
-    width: 100%;
-    padding-left: 1%;
-    font-size: 1.4em;
-  }
-  header #volumeMeter {
-    padding-left: 16%;
-  }
-  header #volumeMeter #image {
-    max-width: 50px;
-    max-height: 50px;
-  }
-
-  footer #circle #popupYoutube {
-    display: inline-block;
-    bottom: 14%;
-    left: 2%;
-    width: 400px;
-    font-size: 0.8em;
-  }
-  footer #circle #popupYoutube a {
-    padding-left: 270px;
-  }
-  footer #circleWhite {
-    left: 82%;
-  }
-  footer #circleWhite #popupAbout {
-    left: 2%;
-    right: 2%;
-    height: 20%;
-    bottom: 14%;
-    width: 78%;
-    font-size: 0.8em;
-  }
-}
-
-@media all and (min-width: 1500px) {
-	header h1 {
-		padding-left: 6%;
-	}
-}
-
-@media all and (min-width: 1800px) {
-	header {
-		padding-right: 3%;
-	}
-	header h1 {
-		padding-left: 14%;
-	}
-}
-
-
-@media all and (min-width: 2000px) {
-	header {
-		padding-right: 5%;
-	}
-	header h1 {
-		padding-left: 18%;
-	}
-	#volumeMeter {
-		padding-left: 4%;
-	}
 }

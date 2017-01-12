@@ -73,13 +73,11 @@
             </div>
           </div>
         </div>
-
-        <footer ng-app="mainApp">
+        <!-- angular app starts here -->
+        <div ng-app="mainApp">
+        <footer>
           <div id="circle" title="Music to listen this to...">
             <div id="triangle-right"></div>
-              <span id="popupYoutube" ng-controller="playlist">
-              We recommend you listen to these tunes for today:<a href="{{video.url}}" target="_blank">[{{video.artist}} - {{video.album}}]</a>
-              </span>
           </div>
           <div id="circleWhite" title="About...">
             <div id="cross">...</div>
@@ -91,6 +89,11 @@
             </div>
           </div>
         </footer>
+        <span id="popupYoutube" ng-controller="playlist">
+          <span id='weRecommend'>We recommend you listen to these tunes for today:</span>
+          <a href="{{video.url}}" target="_blank">[{{video.artist}} - {{video.album}}]</a>
+        </span>
+      </div>
       </div>
       <script>
       console.log("Retrieving json file...");
@@ -102,15 +105,18 @@
           var lenArtist = response.artist.length;
           var lenAlbum = response.album.length;
           console.log("Data retrieved successfully. String length: ", lenArtist + lenAlbum);
+	// todo: re-do css display to avoid this vv
  	if ((lenArtist + lenAlbum) > 36) {         
- 	$('#popupYoutube').css('width', '700px');
-	$('#popupYoutube a').css('padding-left', '340px');
-	  } else if ((lenArtist + lenAlbum) > 32) {
-	$('#popupYoutube').css('width', '660px'); 
-	  } else if ((lenArtist + lenAlbum) > 28) {
+ 	    $('#popupYoutube').css('width', '700px');
+	    $('#popupYoutube a').css('padding-left', '340px');
+	  } else if ((lenArtist + lenAlbum) >= 32) {
+	    $('#popupYoutube').css('width', '660px'); 
+	  } else if ((lenArtist + lenAlbum) > 28){
             $('#popupYoutube').css('width', '630px');
+	  } else if ((lenArtist + lenAlbum) > 26){
+	    $('#popupYoutube').css('width', '580px');
           } else if ((lenArtist + lenAlbum) > 24){
-            $('#popupYoutube').css('width', '450px');
+            $('#popupYoutube').css('width', '450px');  
           } else {
             // nothing
           }
