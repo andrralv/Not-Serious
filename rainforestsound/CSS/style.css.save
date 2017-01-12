@@ -254,8 +254,6 @@ header #volumeMeter {
 	}
 	header h1 {
 		padding-left: 18%;
-	}
-	#volumeMeter {
-		padding-left: 4%;
+	
 	}
 }
